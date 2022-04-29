@@ -53,14 +53,19 @@ TODO descrever como habilitar uma task e como a sua execução ocorre nos namesp
 
 ### Recursos
 
-TODO descrever uso do driver vbox
+Na configuração do Minikube, foi recomendado utilizar o *driver* do Docker. Porém mesmo alocando muito recurso para o Docker, ele não aguentava o funcionamento, e por várias vezes reiniciava o cluster do Kubernetes por completo. Logo, troquei para utilizar o VBox.
 
 ### Connections
 
+Foi um longo caminho para reconhecer que o SparkKubernetesOperator (operator no contexto do Airflow) utilizava de um Connection - conceito desconhecido para mim - que precisava ser configurado via interface do Airflow. Não estava muito bem documentado no operator como deveria ser configurado esse Connection, nem os erros ficavam claros - uma vez que os logs das tasks foi uma das últimas coisas que acabei descobrindo durante a pesquisa. Assim inicialmente configurei a Connection manualmente, verificando que necessitava apenas ter o nome `kubernetes_default`, e ter o checkbox marcado *in cluster config*.
+Naturalmente fui pesquisar como poderia automatizar a configuração dessa connection, e foi possível a partir de uma variável como constava na documentação (não tão clara) do [operator](https://airflow.apache.org/docs/apache-airflow-providers-cncf-kubernetes/stable/connections/kubernetes.html#howto-connection-kubernetes).
+
 ### Permissões
 
-TODO descrever necessidade do RBAC
+O primeiro problema relacionado a permissão, foi ao solicitar uma execução de um SparkApplication via Airflow. Assim foi necessário dar a permissão ao airflow para que possa executar comandos utilizando a API do SparkOperator, como consta no arquivo `airflow/rbac.yaml`.
+Outro problema surgiu ao verificar que as SparkApplication's só podem ser executadas em certos *namespaces*. Houve também o trabalho de dar permissão a um ServiceAccount para que execute tais apps no *namespace* default. Confesso que poderia ter estudado melhor a estrutura do Helm Chart do Spark Operator, que é o responsável por essas regras, mas fica para um outro momento.
 
 ### Logs
 
-
+A falta de logs das execuções das tarefas foi o principal agressor nessa pesquisa. Isso se deu principalmente à minha falta de conhecimento do Airflow, mas também por ele não direcionar os logs de execução das tasks para o **stdout**, e sim armazendo-os locamente em disco.
+Isso justificou a criação do StorageAccount e PersistentVolume. A criação dos volumes, storageaccount e mounts não foi simples pois exigiu uma configuração não só no Kubernetes diretamente, como no Helm Chart, e **também** no minikube. Sem essa configuração de **uid** e **gid**, os pods não teriam permissão para escrever nos diretórios compartilhados.
