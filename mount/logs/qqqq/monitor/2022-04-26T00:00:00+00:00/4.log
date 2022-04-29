@@ -1,0 +1,363 @@
+[2022-04-28 21:55:12,964] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: qqqq.monitor scheduled__2022-04-26T00:00:00+00:00 [queued]>
+[2022-04-28 21:55:13,228] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: qqqq.monitor scheduled__2022-04-26T00:00:00+00:00 [queued]>
+[2022-04-28 21:55:13,276] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-28 21:55:13,313] {taskinstance.py:1244} INFO - Starting attempt 4 of 4
+[2022-04-28 21:55:13,337] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-28 21:55:14,011] {taskinstance.py:1264} INFO - Executing <Task(SparkKubernetesSensor): monitor> on 2022-04-26 00:00:00+00:00
+[2022-04-28 21:55:14,675] {standard_task_runner.py:52} INFO - Started process 28 to run task
+[2022-04-28 21:55:14,820] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'qqqq', 'monitor', 'scheduled__2022-04-26T00:00:00+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/sp_rodaporfavor.py', '--cfg-path', '/tmp/tmpjl0rvowv', '--error-file', '/tmp/tmp876h9_fi']
+[2022-04-28 21:55:14,888] {standard_task_runner.py:77} INFO - Job 14: Subtask monitor
+[2022-04-28 21:55:15,628] {logging_mixin.py:109} INFO - Running <TaskInstance: qqqq.monitor scheduled__2022-04-26T00:00:00+00:00 [running]> on host qqqqmonitor.89f672bfb95f4581acef5e540ab8ecbe
+[2022-04-28 21:55:17,480] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=qqqq
+AIRFLOW_CTX_TASK_ID=monitor
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-26T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-04-26T00:00:00+00:00
+[2022-04-28 21:55:17,552] {spark_kubernetes.py:98} INFO - Poking: job-pi-21-53-49
+[2022-04-28 21:55:18,468] {spark_kubernetes.py:118} INFO - Spark application is still in state: SUBMITTED
+[2022-04-28 21:56:18,564] {spark_kubernetes.py:98} INFO - Poking: job-pi-21-53-49
+[2022-04-28 21:56:18,701] {spark_kubernetes.py:118} INFO - Spark application is still in state: SUBMITTED
+[2022-04-28 21:57:18,789] {spark_kubernetes.py:98} INFO - Poking: job-pi-21-53-49
+[2022-04-28 21:57:19,138] {spark_kubernetes.py:118} INFO - Spark application is still in state: SUBMITTED
+[2022-04-28 21:57:46,464] {base_job.py:231} ERROR - LocalTaskJob heartbeat got an exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 241, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "airflow-***ql.airflow" (10.109.56.31), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/jobs/base_job.py", line 203, in heartbeat
+    session.merge(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 2171, in merge
+    _resolve_conflict_map=_resolve_conflict_map,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 2244, in _merge
+    merged = self.query(mapper.class_).get(key[1])
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 1018, in get
+    return self._get_impl(ident, loading.load_on_pk_identity)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 1135, in _get_impl
+    return db_load_fn(self, primary_key_identity)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/loading.py", line 286, in load_on_pk_identity
+    return q.one()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3490, in one
+    ret = self.one_or_none()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3459, in one_or_none
+    ret = list(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3557, in _execute_and_instances
+    querycontext, self._connection_from_session, close_with_result=True
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3572, in _get_bind_args
+    mapper=self._bind_mapper(), clause=querycontext.statement, **kw
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3550, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1145, in connection
+    execution_options=execution_options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1151, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 433, in _connection_for_bind
+    conn = bind._contextual_connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2302, in _contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2340, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1584, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 241, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "airflow-***ql.airflow" (10.109.56.31), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2022-04-28 21:57:53,081] {base_job.py:231} ERROR - LocalTaskJob heartbeat got an exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 241, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "airflow-***ql.airflow" (10.109.56.31), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/jobs/base_job.py", line 203, in heartbeat
+    session.merge(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 2171, in merge
+    _resolve_conflict_map=_resolve_conflict_map,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 2244, in _merge
+    merged = self.query(mapper.class_).get(key[1])
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 1018, in get
+    return self._get_impl(ident, loading.load_on_pk_identity)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 1135, in _get_impl
+    return db_load_fn(self, primary_key_identity)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/loading.py", line 286, in load_on_pk_identity
+    return q.one()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3490, in one
+    ret = self.one_or_none()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3459, in one_or_none
+    ret = list(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3557, in _execute_and_instances
+    querycontext, self._connection_from_session, close_with_result=True
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3572, in _get_bind_args
+    mapper=self._bind_mapper(), clause=querycontext.statement, **kw
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3550, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1145, in connection
+    execution_options=execution_options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1151, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 433, in _connection_for_bind
+    conn = bind._contextual_connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2302, in _contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2340, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1584, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 241, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "airflow-***ql.airflow" (10.109.56.31), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2022-04-28 21:58:19,232] {spark_kubernetes.py:98} INFO - Poking: job-pi-21-53-49
+[2022-04-28 21:58:19,615] {spark_kubernetes.py:118} INFO - Spark application is still in state: SUBMITTED
+[2022-04-28 21:59:19,712] {spark_kubernetes.py:98} INFO - Poking: job-pi-21-53-49
+[2022-04-28 21:59:19,787] {spark_kubernetes.py:118} INFO - Spark application is still in state: SUBMITTED
+[2022-04-28 22:00:19,841] {spark_kubernetes.py:98} INFO - Poking: job-pi-21-53-49
+[2022-04-28 22:00:19,858] {spark_kubernetes.py:118} INFO - Spark application is still in state: SUBMITTED
+[2022-04-28 22:01:19,917] {spark_kubernetes.py:98} INFO - Poking: job-pi-21-53-49
+[2022-04-28 22:01:19,962] {spark_kubernetes.py:87} INFO - ++ id -u
++ myuid=185
+++ id -g
++ mygid=0
++ set +e
+++ getent passwd 185
++ uidentry=
++ set -e
++ '[' -z '' ']'
++ '[' -w /etc/passwd ']'
++ echo '185:x:185:0:anonymous uid:/opt/spark:/bin/false'
++ SPARK_CLASSPATH=':/opt/spark/jars/*'
++ env
++ sort -t_ -k4 -n
++ grep SPARK_JAVA_OPT_
++ sed 's/[^=]*=\(.*\)/\1/g'
++ readarray -t SPARK_EXECUTOR_JAVA_OPTS
++ '[' -n '' ']'
++ '[' -z ']'
++ '[' -z ']'
++ '[' -n '' ']'
++ '[' -z ']'
++ '[' -z x ']'
++ SPARK_CLASSPATH='/opt/spark/conf::/opt/spark/jars/*'
++ case "$1" in
++ shift 1
++ CMD=("$SPARK_HOME/bin/spark-submit" --conf "spark.driver.bindAddress=$SPARK_DRIVER_BIND_ADDRESS" --deploy-mode client "$@")
++ exec /usr/bin/tini -s -- /opt/spark/bin/spark-submit --conf spark.driver.bindAddress=172.17.0.9 --deploy-mode client --properties-file /opt/spark/conf/spark.properties --class org.apache.spark.deploy.PythonRunner local:///opt/spark/examples/src/main/python/pi.py
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/opt/spark/jars/spark-unsafe_2.12-3.1.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+22/04/28 22:00:41 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+22/04/28 22:00:42 INFO SparkContext: Running Spark version 3.1.1
+22/04/28 22:00:42 INFO ResourceUtils: ==============================================================
+22/04/28 22:00:42 INFO ResourceUtils: No custom resources configured for spark.driver.
+22/04/28 22:00:42 INFO ResourceUtils: ==============================================================
+22/04/28 22:00:42 INFO SparkContext: Submitted application: PythonPi
+22/04/28 22:00:42 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 512, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+22/04/28 22:00:42 INFO ResourceProfile: Limiting resource is cpus at 1 tasks per executor
+22/04/28 22:00:42 INFO ResourceProfileManager: Added ResourceProfile id: 0
+22/04/28 22:00:42 INFO SecurityManager: Changing view acls to: 185,root
+22/04/28 22:00:42 INFO SecurityManager: Changing modify acls to: 185,root
+22/04/28 22:00:42 INFO SecurityManager: Changing view acls groups to: 
+22/04/28 22:00:42 INFO SecurityManager: Changing modify acls groups to: 
+22/04/28 22:00:42 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(185, root); groups with view permissions: Set(); users  with modify permissions: Set(185, root); groups with modify permissions: Set()
+22/04/28 22:00:43 INFO Utils: Successfully started service 'sparkDriver' on port 7078.
+22/04/28 22:00:43 INFO SparkEnv: Registering MapOutputTracker
+22/04/28 22:00:43 INFO SparkEnv: Registering BlockManagerMaster
+22/04/28 22:00:43 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+22/04/28 22:00:43 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+22/04/28 22:00:43 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+22/04/28 22:00:43 INFO DiskBlockManager: Created local directory at /var/data/spark-1154e65b-9dd5-4f0f-9f5d-b76b15e05e2f/blockmgr-97cee9da-feab-4974-801b-d937f48e5a0c
+22/04/28 22:00:43 INFO MemoryStore: MemoryStore started with capacity 117.0 MiB
+22/04/28 22:00:43 INFO SparkEnv: Registering OutputCommitCoordinator
+22/04/28 22:00:43 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+22/04/28 22:00:43 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://job-pi-21-53-49-3ea91480722a9054-driver-svc.default.svc:4040
+22/04/28 22:00:44 INFO SparkKubernetesClientFactory: Auto-configuring K8S client using current context from users K8S config file
+22/04/28 22:00:46 INFO ExecutorPodsAllocator: Going to request 1 executors from Kubernetes for ResourceProfile Id: 0, target: 1 running: 0.
+22/04/28 22:00:47 INFO BasicExecutorFeatureStep: Decommissioning not enabled, skipping shutdown script
+22/04/28 22:00:47 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 7079.
+22/04/28 22:00:47 INFO NettyBlockTransferService: Server created on job-pi-21-53-49-3ea91480722a9054-driver-svc.default.svc:7079
+22/04/28 22:00:47 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+22/04/28 22:00:47 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, job-pi-21-53-49-3ea91480722a9054-driver-svc.default.svc, 7079, None)
+22/04/28 22:00:47 INFO BlockManagerMasterEndpoint: Registering block manager job-pi-21-53-49-3ea91480722a9054-driver-svc.default.svc:7079 with 117.0 MiB RAM, BlockManagerId(driver, job-pi-21-53-49-3ea91480722a9054-driver-svc.default.svc, 7079, None)
+22/04/28 22:00:47 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, job-pi-21-53-49-3ea91480722a9054-driver-svc.default.svc, 7079, None)
+22/04/28 22:00:47 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, job-pi-21-53-49-3ea91480722a9054-driver-svc.default.svc, 7079, None)
+22/04/28 22:00:52 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.17.0.11:55834) with ID 1,  ResourceProfileId 0
+22/04/28 22:00:52 INFO KubernetesClusterSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+22/04/28 22:00:53 INFO BlockManagerMasterEndpoint: Registering block manager 172.17.0.11:45411 with 117.0 MiB RAM, BlockManagerId(1, 172.17.0.11, 45411, None)
+22/04/28 22:00:53 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/opt/spark/work-dir/spark-warehouse').
+22/04/28 22:00:53 INFO SharedState: Warehouse path is 'file:/opt/spark/work-dir/spark-warehouse'.
+22/04/28 22:00:55 INFO SparkContext: Starting job: reduce at /opt/spark/examples/src/main/python/pi.py:42
+22/04/28 22:00:55 INFO DAGScheduler: Got job 0 (reduce at /opt/spark/examples/src/main/python/pi.py:42) with 2 output partitions
+22/04/28 22:00:55 INFO DAGScheduler: Final stage: ResultStage 0 (reduce at /opt/spark/examples/src/main/python/pi.py:42)
+22/04/28 22:00:55 INFO DAGScheduler: Parents of final stage: List()
+22/04/28 22:00:55 INFO DAGScheduler: Missing parents: List()
+22/04/28 22:00:55 INFO DAGScheduler: Submitting ResultStage 0 (PythonRDD[1] at reduce at /opt/spark/examples/src/main/python/pi.py:42), which has no missing parents
+22/04/28 22:00:55 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 10.1 KiB, free 117.0 MiB)
+22/04/28 22:00:56 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 7.8 KiB, free 116.9 MiB)
+22/04/28 22:00:56 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on job-pi-21-53-49-3ea91480722a9054-driver-svc.default.svc:7079 (size: 7.8 KiB, free: 117.0 MiB)
+22/04/28 22:00:56 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1383
+22/04/28 22:00:56 INFO DAGScheduler: Submitting 2 missing tasks from ResultStage 0 (PythonRDD[1] at reduce at /opt/spark/examples/src/main/python/pi.py:42) (first 15 tasks are for partitions Vector(0, 1))
+22/04/28 22:00:56 INFO TaskSchedulerImpl: Adding task set 0.0 with 2 tasks resource profile 0
+22/04/28 22:00:56 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (172.17.0.11, executor 1, partition 0, PROCESS_LOCAL, 4480 bytes) taskResourceAssignments Map()
+22/04/28 22:00:56 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 172.17.0.11:45411 (size: 7.8 KiB, free: 117.0 MiB)
+22/04/28 22:00:57 INFO TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1) (172.17.0.11, executor 1, partition 1, PROCESS_LOCAL, 4480 bytes) taskResourceAssignments Map()
+22/04/28 22:00:57 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 1243 ms on 172.17.0.11 (executor 1) (1/2)
+22/04/28 22:00:57 INFO PythonAccumulatorV2: Connected to AccumulatorServer at host: 127.0.0.1 port: 57683
+22/04/28 22:00:57 INFO TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 96 ms on 172.17.0.11 (executor 1) (2/2)
+22/04/28 22:00:57 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+22/04/28 22:00:57 INFO DAGScheduler: ResultStage 0 (reduce at /opt/spark/examples/src/main/python/pi.py:42) finished in 1.808 s
+22/04/28 22:00:57 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+22/04/28 22:00:57 INFO TaskSchedulerImpl: Killing all running tasks in stage 0: Stage finished
+22/04/28 22:00:57 INFO DAGScheduler: Job 0 finished: reduce at /opt/spark/examples/src/main/python/pi.py:42, took 1.914666 s
+Pi is roughly 3.142080
+22/04/28 22:00:57 INFO SparkUI: Stopped Spark web UI at http://job-pi-21-53-49-3ea91480722a9054-driver-svc.default.svc:4040
+22/04/28 22:00:57 INFO KubernetesClusterSchedulerBackend: Shutting down all executors
+22/04/28 22:00:57 INFO KubernetesClusterSchedulerBackend$KubernetesDriverEndpoint: Asking each executor to shut down
+22/04/28 22:00:57 WARN ExecutorPodsWatchSnapshotSource: Kubernetes client has been closed (this is expected if the application is shutting down.)
+22/04/28 22:00:57 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+22/04/28 22:00:57 INFO MemoryStore: MemoryStore cleared
+22/04/28 22:00:57 INFO BlockManager: BlockManager stopped
+22/04/28 22:00:57 INFO BlockManagerMaster: BlockManagerMaster stopped
+22/04/28 22:00:57 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+22/04/28 22:00:57 INFO SparkContext: Successfully stopped SparkContext
+22/04/28 22:00:58 INFO ShutdownHookManager: Shutdown hook called
+22/04/28 22:00:58 INFO ShutdownHookManager: Deleting directory /var/data/spark-1154e65b-9dd5-4f0f-9f5d-b76b15e05e2f/spark-c81f7097-068f-4f21-b006-05def85c628e
+22/04/28 22:00:58 INFO ShutdownHookManager: Deleting directory /tmp/spark-44f79684-be1e-442b-a04a-cfa91735f32a
+22/04/28 22:00:58 INFO ShutdownHookManager: Deleting directory /var/data/spark-1154e65b-9dd5-4f0f-9f5d-b76b15e05e2f/spark-c81f7097-068f-4f21-b006-05def85c628e/pyspark-168a961d-ef22-4222-8645-6aacd2968343
+
+[2022-04-28 22:01:19,963] {spark_kubernetes.py:115} INFO - Spark application ended successfully
+[2022-04-28 22:01:19,963] {base.py:251} INFO - Success criteria met. Exiting.
+[2022-04-28 22:01:19,980] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=qqqq, task_id=monitor, execution_date=20220426T000000, start_date=20220428T215512, end_date=20220428T220119
+[2022-04-28 22:01:20,035] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-04-28 22:01:20,069] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

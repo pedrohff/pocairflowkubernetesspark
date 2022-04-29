@@ -1,0 +1,199 @@
+executor: "KubernetesExecutor"
+scheduler:
+  replicas: 1
+  securityContext:
+    runAsUser: 50000
+    fsGroup: 0
+    runAsGroup: 0
+  extraVolumes:
+    - name: dags
+      hostPath:
+        path: "/mnt/airflow/dags"
+  extraVolumeMounts:
+    - name: dags
+      mountPath: "/opt/airflow/dags"
+  extraInitContainers:
+    - name: fix-volume-logs-permissions
+      image: busybox
+      command: [ "sh", "-c", "chown -R 50000:0 /opt/airflow/logs/" ]
+      securityContext:
+        runAsUser: 0
+      volumeMounts:
+        - mountPath: /opt/airflow/logs/
+          name: logs
+
+triggerer:
+  securityContext:
+    runAsUser: 50000
+    fsGroup: 0
+    runAsGroup: 0
+  extraVolumes:
+    - name: dags
+      hostPath:
+        path: "/mnt/airflow/dags"
+  extraVolumeMounts:
+    - name: dags
+      mountPath: "/opt/airflow/dags"
+  extraInitContainers:
+    - name: fix-volume-logs-permissions
+      image: busybox
+      command: [ "sh", "-c", "chown -R 50000:0 /opt/airflow/logs/" ]
+      securityContext:
+        runAsUser: 0
+      volumeMounts:
+        - mountPath: /opt/airflow/logs/
+          name: logs
+
+workers:
+  persistence:
+    fixPermissions: true
+  securityContext:
+    runAsUser: 50000
+    fsGroup: 0
+    runAsGroup: 0
+  replicas: 1
+  extraVolumes:
+    - name: dags
+      hostPath:
+        path: "/mnt/airflow/dags"
+  extraVolumeMounts:
+    - name: dags
+      mountPath: "/opt/airflow/dags"
+  extraInitContainers:
+    - name: fix-volume-logs-permissions
+      image: busybox
+      command: [ "sh", "-c", "chown -R 50000:0 /opt/airflow/logs/" ]
+      securityContext:
+        runAsUser: 0
+      volumeMounts:
+        - mountPath: /opt/airflow/logs/
+          name: logs
+
+dags:
+  persistence:
+    enabled: false
+
+config:
+  core:
+    dags_folder: "/opt/airflow/dags"
+secret:
+  - envName: "AIRFLOW_CONN_KUBERNETES_DEFAULT"
+    secretName: 'airflow-airflow-connections'
+    secretKey: "AIRFLOW_CONN_KUBERNETES_DEFAULT"
+
+extraSecrets:
+  'airflow-airflow-connections':
+    type: 'Opaque' # Base64 value on data is related to kubernetes://?extra__kubernetes__in_cluster=True&conn_id=kubernetes_default
+    data: |
+      AIRFLOW_CONN_KUBERNETES_DEFAULT: 'a3ViZXJuZXRlczovLz9leHRyYV9fa3ViZXJuZXRlc19faW5fY2x1c3Rlcj1UcnVlJmNvbm5faWQ9a3ViZXJuZXRlc19kZWZhdWx0'
+
+
+# Whether Airflow can launch workers and/or pods in multiple namespaces
+# If true, it creates ClusterRole/ClusterRolebinding (with access to entire cluster)
+multiNamespaceMode: true
+
+env:
+  - name: "PYTHONASYNCIODEBUG"
+    value: "1"
+
+securityContext:
+  runAsUser: 50000
+  fsGroup: 0
+  runAsGroup: 0
+logs:
+  persistence:
+    # Enable persistent volume for storing logs
+    enabled: true
+    # Volume size for logs
+    size: 2Gi
+    # If using a custom storageClass, pass name here
+    storageClassName: localsc
+
+podTemplate: |
+  ---
+  apiVersion: v1
+  kind: Pod
+  metadata:
+    name: dummy-name
+    labels:
+      tier: airflow
+      component: worker
+      release: airflow
+  spec:
+    containers:
+      - envFrom:
+          []
+        env:
+          - name: AIRFLOW__CORE__EXECUTOR
+            value: KubernetesExecutor
+          # Hard Coded Airflow Envs
+          - name: AIRFLOW__CORE__FERNET_KEY
+            valueFrom:
+              secretKeyRef:
+                name: airflow-fernet-key
+                key: fernet-key
+          - name: AIRFLOW__CORE__SQL_ALCHEMY_CONN
+            valueFrom:
+              secretKeyRef:
+                name: airflow-airflow-metadata
+                key: connection
+          - name: AIRFLOW_CONN_AIRFLOW_DB
+            valueFrom:
+              secretKeyRef:
+                name: airflow-airflow-metadata
+                key: connection
+          - name: AIRFLOW__WEBSERVER__SECRET_KEY
+            valueFrom:
+              secretKeyRef:
+                name: airflow-webserver-secret-key
+                key: webserver-secret-key
+          # Dynamically created environment variables
+          # Dynamically created secret envs
+          - name: AIRFLOW_CONN_KUBERNETES_DEFAULT
+            valueFrom:
+              secretKeyRef:
+                name: airflow-airflow-connections
+                key: AIRFLOW_CONN_KUBERNETES_DEFAULT
+          - name: AIRFLOW__KUBERNETES_SECRETS__AIRFLOW_CONN_KUBERNETES_DEFAULT
+            value: airflow-airflow-connections=AIRFLOW_CONN_KUBERNETES_DEFAULT
+
+          # Extra env
+        image: apache/airflow:2.2.4
+        imagePullPolicy: IfNotPresent
+        name: base
+        resources:
+          {}
+        volumeMounts:
+          - mountPath: "/opt/airflow/logs"
+            name: logs
+          - name: config
+            mountPath: "/opt/airflow/airflow.cfg"
+            subPath: airflow.cfg
+            readOnly: true
+          - name: config
+            mountPath: "/opt/airflow/config/airflow_local_settings.py"
+            subPath: airflow_local_settings.py
+            readOnly: true
+          - mountPath: /opt/airflow/dags
+            name: dags
+    restartPolicy: Never
+    securityContext:
+      runAsUser: 50000
+      fsGroup: 0
+    nodeSelector:
+      {}
+    affinity:
+      {}
+    tolerations:
+      []
+    serviceAccountName: airflow-worker
+    volumes:
+      - name: logs
+        persistentVolumeClaim:
+          claimName: airflow-logs
+      - configMap:
+          name: airflow-airflow-config
+        name: config
+      - hostPath:
+          path: /mnt/airflow/dags
+        name: dags

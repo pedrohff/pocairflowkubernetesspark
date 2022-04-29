@@ -1,0 +1,1407 @@
+[2022-04-29 13:21:42,023] {processor.py:163} INFO - Started process (PID=52) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:21:42,025] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:21:42,026] {logging_mixin.py:109} INFO - [2022-04-29 13:21:42,025] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:21:42,608] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:21:42,617] {logging_mixin.py:109} INFO - [2022-04-29 13:21:42,617] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:21:42,633] {logging_mixin.py:109} INFO - [2022-04-29 13:21:42,633] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:21:42,653] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.632 seconds
+[2022-04-29 13:22:13,472] {processor.py:163} INFO - Started process (PID=74) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:22:13,474] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:22:13,477] {logging_mixin.py:109} INFO - [2022-04-29 13:22:13,476] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:22:13,623] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:22:13,640] {logging_mixin.py:109} INFO - [2022-04-29 13:22:13,640] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:22:13,695] {logging_mixin.py:109} INFO - [2022-04-29 13:22:13,695] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:22:13,722] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.253 seconds
+[2022-04-29 13:22:44,308] {processor.py:163} INFO - Started process (PID=112) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:22:44,310] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:22:44,311] {logging_mixin.py:109} INFO - [2022-04-29 13:22:44,311] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:22:44,379] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:22:44,388] {logging_mixin.py:109} INFO - [2022-04-29 13:22:44,388] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:22:44,405] {logging_mixin.py:109} INFO - [2022-04-29 13:22:44,405] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:22:44,417] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.112 seconds
+[2022-04-29 13:23:14,826] {processor.py:163} INFO - Started process (PID=143) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:23:14,828] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:23:14,829] {logging_mixin.py:109} INFO - [2022-04-29 13:23:14,829] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:23:14,891] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:23:14,915] {logging_mixin.py:109} INFO - [2022-04-29 13:23:14,914] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:23:14,946] {logging_mixin.py:109} INFO - [2022-04-29 13:23:14,946] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:23:14,962] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.139 seconds
+[2022-04-29 13:37:09,934] {processor.py:163} INFO - Started process (PID=169) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:37:09,937] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:37:09,939] {logging_mixin.py:109} INFO - [2022-04-29 13:37:09,938] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:37:10,337] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:37:10,377] {logging_mixin.py:109} INFO - [2022-04-29 13:37:10,376] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:37:10,421] {logging_mixin.py:109} INFO - [2022-04-29 13:37:10,421] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:37:10,449] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.527 seconds
+[2022-04-29 13:37:40,931] {processor.py:163} INFO - Started process (PID=190) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:37:40,938] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:37:40,939] {logging_mixin.py:109} INFO - [2022-04-29 13:37:40,939] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:37:41,296] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:37:41,308] {logging_mixin.py:109} INFO - [2022-04-29 13:37:41,308] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:37:41,329] {logging_mixin.py:109} INFO - [2022-04-29 13:37:41,329] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:37:41,343] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.415 seconds
+[2022-04-29 13:38:12,031] {processor.py:163} INFO - Started process (PID=227) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:38:12,033] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:38:12,034] {logging_mixin.py:109} INFO - [2022-04-29 13:38:12,034] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:38:12,128] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:38:12,141] {logging_mixin.py:109} INFO - [2022-04-29 13:38:12,141] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:38:12,162] {logging_mixin.py:109} INFO - [2022-04-29 13:38:12,162] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:38:12,176] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.148 seconds
+[2022-04-29 13:38:42,854] {processor.py:163} INFO - Started process (PID=248) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:38:42,856] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:38:42,857] {logging_mixin.py:109} INFO - [2022-04-29 13:38:42,857] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:38:42,943] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:38:42,960] {logging_mixin.py:109} INFO - [2022-04-29 13:38:42,959] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:38:42,982] {logging_mixin.py:109} INFO - [2022-04-29 13:38:42,982] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:38:42,998] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.148 seconds
+[2022-04-29 13:39:13,420] {processor.py:163} INFO - Started process (PID=285) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:39:13,422] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:39:13,423] {logging_mixin.py:109} INFO - [2022-04-29 13:39:13,423] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:39:13,518] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:39:13,528] {logging_mixin.py:109} INFO - [2022-04-29 13:39:13,528] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:39:13,548] {logging_mixin.py:109} INFO - [2022-04-29 13:39:13,548] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:39:13,562] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.145 seconds
+[2022-04-29 13:39:44,341] {processor.py:163} INFO - Started process (PID=306) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:39:44,344] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:39:44,346] {logging_mixin.py:109} INFO - [2022-04-29 13:39:44,346] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:39:44,486] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:39:44,499] {logging_mixin.py:109} INFO - [2022-04-29 13:39:44,499] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:39:44,530] {logging_mixin.py:109} INFO - [2022-04-29 13:39:44,529] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:39:44,548] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.214 seconds
+[2022-04-29 13:40:14,933] {processor.py:163} INFO - Started process (PID=343) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:40:14,935] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:40:14,936] {logging_mixin.py:109} INFO - [2022-04-29 13:40:14,936] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:40:15,023] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:40:15,034] {logging_mixin.py:109} INFO - [2022-04-29 13:40:15,034] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:40:15,053] {logging_mixin.py:109} INFO - [2022-04-29 13:40:15,053] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:40:15,066] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.137 seconds
+[2022-04-29 13:40:45,591] {processor.py:163} INFO - Started process (PID=374) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:40:45,594] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:40:45,595] {logging_mixin.py:109} INFO - [2022-04-29 13:40:45,595] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:40:45,785] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:40:45,803] {logging_mixin.py:109} INFO - [2022-04-29 13:40:45,803] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:40:45,830] {logging_mixin.py:109} INFO - [2022-04-29 13:40:45,830] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:40:45,845] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.260 seconds
+[2022-04-29 13:41:16,315] {processor.py:163} INFO - Started process (PID=400) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:41:16,317] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:41:16,318] {logging_mixin.py:109} INFO - [2022-04-29 13:41:16,318] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:41:16,486] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:41:16,496] {logging_mixin.py:109} INFO - [2022-04-29 13:41:16,496] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:41:16,516] {logging_mixin.py:109} INFO - [2022-04-29 13:41:16,516] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:41:16,530] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.219 seconds
+[2022-04-29 13:41:46,942] {processor.py:163} INFO - Started process (PID=431) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:41:46,944] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:41:46,945] {logging_mixin.py:109} INFO - [2022-04-29 13:41:46,944] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:41:47,063] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:41:47,078] {logging_mixin.py:109} INFO - [2022-04-29 13:41:47,078] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:41:47,137] {logging_mixin.py:109} INFO - [2022-04-29 13:41:47,137] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:41:47,155] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.218 seconds
+[2022-04-29 13:42:17,583] {processor.py:163} INFO - Started process (PID=457) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:42:17,585] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:42:17,586] {logging_mixin.py:109} INFO - [2022-04-29 13:42:17,586] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:42:17,679] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:42:17,692] {logging_mixin.py:109} INFO - [2022-04-29 13:42:17,692] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:42:17,713] {logging_mixin.py:109} INFO - [2022-04-29 13:42:17,713] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:42:17,727] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.147 seconds
+[2022-04-29 13:42:48,173] {processor.py:163} INFO - Started process (PID=493) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:42:48,174] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:42:48,176] {logging_mixin.py:109} INFO - [2022-04-29 13:42:48,176] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:42:48,340] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:42:48,356] {logging_mixin.py:109} INFO - [2022-04-29 13:42:48,355] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:42:48,379] {logging_mixin.py:109} INFO - [2022-04-29 13:42:48,379] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:42:48,396] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.229 seconds
+[2022-04-29 13:43:18,831] {processor.py:163} INFO - Started process (PID=514) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:43:18,834] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:43:18,835] {logging_mixin.py:109} INFO - [2022-04-29 13:43:18,835] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:43:18,933] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:43:18,944] {logging_mixin.py:109} INFO - [2022-04-29 13:43:18,944] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:43:18,965] {logging_mixin.py:109} INFO - [2022-04-29 13:43:18,964] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:43:18,977] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.150 seconds
+[2022-04-29 13:43:49,795] {processor.py:163} INFO - Started process (PID=552) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:43:49,805] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:43:49,813] {logging_mixin.py:109} INFO - [2022-04-29 13:43:49,812] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:43:50,166] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:43:50,179] {logging_mixin.py:109} INFO - [2022-04-29 13:43:50,179] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:43:50,204] {logging_mixin.py:109} INFO - [2022-04-29 13:43:50,204] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:43:50,220] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.460 seconds
+[2022-04-29 13:44:20,329] {processor.py:163} INFO - Started process (PID=573) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:44:20,332] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:44:20,333] {logging_mixin.py:109} INFO - [2022-04-29 13:44:20,333] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:44:20,500] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:44:20,532] {logging_mixin.py:109} INFO - [2022-04-29 13:44:20,531] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:44:20,667] {logging_mixin.py:109} INFO - [2022-04-29 13:44:20,667] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:44:20,688] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.362 seconds
+[2022-04-29 13:44:51,494] {processor.py:163} INFO - Started process (PID=609) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:44:51,495] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:44:51,496] {logging_mixin.py:109} INFO - [2022-04-29 13:44:51,496] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:44:51,594] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:44:51,609] {logging_mixin.py:109} INFO - [2022-04-29 13:44:51,608] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:44:51,641] {logging_mixin.py:109} INFO - [2022-04-29 13:44:51,640] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:44:51,771] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.281 seconds
+[2022-04-29 13:45:22,302] {processor.py:163} INFO - Started process (PID=630) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:45:22,303] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:45:22,304] {logging_mixin.py:109} INFO - [2022-04-29 13:45:22,304] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:45:22,394] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:45:22,406] {logging_mixin.py:109} INFO - [2022-04-29 13:45:22,406] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:45:22,439] {logging_mixin.py:109} INFO - [2022-04-29 13:45:22,439] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:45:22,462] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.164 seconds
+[2022-04-29 13:45:52,725] {processor.py:163} INFO - Started process (PID=666) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:45:52,727] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:45:52,728] {logging_mixin.py:109} INFO - [2022-04-29 13:45:52,728] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:45:53,008] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:45:53,023] {logging_mixin.py:109} INFO - [2022-04-29 13:45:53,023] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:45:53,051] {logging_mixin.py:109} INFO - [2022-04-29 13:45:53,051] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:45:53,088] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.366 seconds
+[2022-04-29 13:46:24,227] {processor.py:163} INFO - Started process (PID=687) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:46:24,229] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:46:24,231] {logging_mixin.py:109} INFO - [2022-04-29 13:46:24,231] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:46:24,333] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:46:24,344] {logging_mixin.py:109} INFO - [2022-04-29 13:46:24,344] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:46:24,366] {logging_mixin.py:109} INFO - [2022-04-29 13:46:24,366] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:46:24,382] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.160 seconds
+[2022-04-29 13:46:55,171] {processor.py:163} INFO - Started process (PID=724) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:46:55,174] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:46:55,176] {logging_mixin.py:109} INFO - [2022-04-29 13:46:55,176] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:46:56,184] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:46:56,206] {logging_mixin.py:109} INFO - [2022-04-29 13:46:56,206] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:46:56,229] {logging_mixin.py:109} INFO - [2022-04-29 13:46:56,229] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:46:56,253] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 1.086 seconds
+[2022-04-29 13:47:26,936] {processor.py:163} INFO - Started process (PID=745) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:47:26,937] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:47:26,941] {logging_mixin.py:109} INFO - [2022-04-29 13:47:26,941] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:47:27,041] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:47:27,053] {logging_mixin.py:109} INFO - [2022-04-29 13:47:27,053] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:47:27,078] {logging_mixin.py:109} INFO - [2022-04-29 13:47:27,078] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:47:27,096] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.164 seconds
+[2022-04-29 13:47:57,561] {processor.py:163} INFO - Started process (PID=781) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:47:57,563] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:47:57,564] {logging_mixin.py:109} INFO - [2022-04-29 13:47:57,564] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:47:57,675] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:47:57,687] {logging_mixin.py:109} INFO - [2022-04-29 13:47:57,687] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:47:57,710] {logging_mixin.py:109} INFO - [2022-04-29 13:47:57,710] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:47:57,726] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.168 seconds
+[2022-04-29 13:48:28,672] {processor.py:163} INFO - Started process (PID=802) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:48:28,674] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:48:28,675] {logging_mixin.py:109} INFO - [2022-04-29 13:48:28,675] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:48:28,768] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:48:28,780] {logging_mixin.py:109} INFO - [2022-04-29 13:48:28,780] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:48:28,798] {logging_mixin.py:109} INFO - [2022-04-29 13:48:28,798] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:48:28,814] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.146 seconds
+[2022-04-29 13:48:59,286] {processor.py:163} INFO - Started process (PID=839) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:48:59,288] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:48:59,289] {logging_mixin.py:109} INFO - [2022-04-29 13:48:59,289] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:48:59,386] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:48:59,397] {logging_mixin.py:109} INFO - [2022-04-29 13:48:59,397] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:48:59,420] {logging_mixin.py:109} INFO - [2022-04-29 13:48:59,420] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:48:59,432] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.149 seconds
+[2022-04-29 13:49:29,888] {processor.py:163} INFO - Started process (PID=860) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:49:29,891] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:49:29,893] {logging_mixin.py:109} INFO - [2022-04-29 13:49:29,893] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:49:30,006] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:49:30,017] {logging_mixin.py:109} INFO - [2022-04-29 13:49:30,017] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:49:30,047] {logging_mixin.py:109} INFO - [2022-04-29 13:49:30,047] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:49:30,064] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.181 seconds
+[2022-04-29 13:50:00,573] {processor.py:163} INFO - Started process (PID=898) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:50:00,574] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:50:00,575] {logging_mixin.py:109} INFO - [2022-04-29 13:50:00,575] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:50:00,668] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:50:00,679] {logging_mixin.py:109} INFO - [2022-04-29 13:50:00,679] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:50:00,702] {logging_mixin.py:109} INFO - [2022-04-29 13:50:00,701] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:50:00,716] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.146 seconds
+[2022-04-29 13:50:31,284] {processor.py:163} INFO - Started process (PID=919) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:50:31,285] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:50:31,286] {logging_mixin.py:109} INFO - [2022-04-29 13:50:31,286] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:50:31,382] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:50:31,396] {logging_mixin.py:109} INFO - [2022-04-29 13:50:31,396] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:50:31,425] {logging_mixin.py:109} INFO - [2022-04-29 13:50:31,425] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:50:31,549] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.269 seconds
+[2022-04-29 13:51:01,900] {processor.py:163} INFO - Started process (PID=956) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:51:01,903] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:51:01,904] {logging_mixin.py:109} INFO - [2022-04-29 13:51:01,904] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:51:02,014] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:51:02,028] {logging_mixin.py:109} INFO - [2022-04-29 13:51:02,028] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:51:02,053] {logging_mixin.py:109} INFO - [2022-04-29 13:51:02,052] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:51:02,075] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.179 seconds
+[2022-04-29 13:51:32,826] {processor.py:163} INFO - Started process (PID=977) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:51:32,828] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:51:32,829] {logging_mixin.py:109} INFO - [2022-04-29 13:51:32,829] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:51:32,931] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:51:32,942] {logging_mixin.py:109} INFO - [2022-04-29 13:51:32,942] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:51:32,962] {logging_mixin.py:109} INFO - [2022-04-29 13:51:32,962] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:51:32,975] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.153 seconds
+[2022-04-29 13:52:03,936] {processor.py:163} INFO - Started process (PID=1013) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:52:03,940] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:52:03,941] {logging_mixin.py:109} INFO - [2022-04-29 13:52:03,941] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:52:04,059] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:52:04,073] {logging_mixin.py:109} INFO - [2022-04-29 13:52:04,073] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:52:04,101] {logging_mixin.py:109} INFO - [2022-04-29 13:52:04,101] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:52:04,121] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.189 seconds
+[2022-04-29 13:52:34,385] {processor.py:163} INFO - Started process (PID=1041) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:52:34,387] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:52:34,388] {logging_mixin.py:109} INFO - [2022-04-29 13:52:34,388] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:52:34,482] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:52:34,495] {logging_mixin.py:109} INFO - [2022-04-29 13:52:34,495] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:52:34,514] {logging_mixin.py:109} INFO - [2022-04-29 13:52:34,514] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:52:34,528] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.146 seconds
+[2022-04-29 13:53:04,789] {processor.py:163} INFO - Started process (PID=1078) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:53:04,791] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:53:04,793] {logging_mixin.py:109} INFO - [2022-04-29 13:53:04,793] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:53:05,019] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:53:05,035] {logging_mixin.py:109} INFO - [2022-04-29 13:53:05,035] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:53:05,062] {logging_mixin.py:109} INFO - [2022-04-29 13:53:05,062] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:53:05,085] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.300 seconds
+[2022-04-29 13:53:36,100] {processor.py:163} INFO - Started process (PID=1099) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:53:36,113] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:53:36,115] {logging_mixin.py:109} INFO - [2022-04-29 13:53:36,115] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:53:36,708] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:53:36,724] {logging_mixin.py:109} INFO - [2022-04-29 13:53:36,724] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:53:36,747] {logging_mixin.py:109} INFO - [2022-04-29 13:53:36,747] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:53:36,765] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.684 seconds
+[2022-04-29 13:54:07,913] {processor.py:163} INFO - Started process (PID=1136) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:54:07,917] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:54:07,920] {logging_mixin.py:109} INFO - [2022-04-29 13:54:07,919] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:54:08,339] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:54:08,358] {logging_mixin.py:109} INFO - [2022-04-29 13:54:08,358] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:54:08,382] {logging_mixin.py:109} INFO - [2022-04-29 13:54:08,382] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:54:08,400] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.493 seconds
+[2022-04-29 13:54:39,024] {processor.py:163} INFO - Started process (PID=1157) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:54:39,026] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:54:39,027] {logging_mixin.py:109} INFO - [2022-04-29 13:54:39,027] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:54:39,204] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:54:39,302] {logging_mixin.py:109} INFO - [2022-04-29 13:54:39,302] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:54:39,325] {logging_mixin.py:109} INFO - [2022-04-29 13:54:39,325] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:54:39,350] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.330 seconds
+[2022-04-29 13:55:09,690] {processor.py:163} INFO - Started process (PID=1200) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:55:09,692] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:55:09,695] {logging_mixin.py:109} INFO - [2022-04-29 13:55:09,695] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:55:09,812] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:55:09,831] {logging_mixin.py:109} INFO - [2022-04-29 13:55:09,831] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:55:09,855] {logging_mixin.py:109} INFO - [2022-04-29 13:55:09,854] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:55:09,869] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.182 seconds
+[2022-04-29 13:55:40,539] {processor.py:163} INFO - Started process (PID=1215) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:55:40,541] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:55:40,542] {logging_mixin.py:109} INFO - [2022-04-29 13:55:40,542] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:55:41,070] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:55:41,083] {logging_mixin.py:109} INFO - [2022-04-29 13:55:41,083] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:55:41,109] {logging_mixin.py:109} INFO - [2022-04-29 13:55:41,109] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:55:41,128] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.591 seconds
+[2022-04-29 13:56:12,060] {processor.py:163} INFO - Started process (PID=1252) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:56:12,062] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:56:12,064] {logging_mixin.py:109} INFO - [2022-04-29 13:56:12,064] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:56:12,156] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:56:12,167] {logging_mixin.py:109} INFO - [2022-04-29 13:56:12,167] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:56:12,188] {logging_mixin.py:109} INFO - [2022-04-29 13:56:12,188] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:56:12,204] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.148 seconds
+[2022-04-29 13:56:42,639] {processor.py:163} INFO - Started process (PID=1273) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:56:42,640] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:56:42,641] {logging_mixin.py:109} INFO - [2022-04-29 13:56:42,641] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:56:42,736] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:56:42,747] {logging_mixin.py:109} INFO - [2022-04-29 13:56:42,747] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:56:42,770] {logging_mixin.py:109} INFO - [2022-04-29 13:56:42,769] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:56:42,783] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.147 seconds
+[2022-04-29 13:57:13,091] {processor.py:163} INFO - Started process (PID=1310) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:57:13,092] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:57:13,093] {logging_mixin.py:109} INFO - [2022-04-29 13:57:13,093] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:57:13,223] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:57:13,235] {logging_mixin.py:109} INFO - [2022-04-29 13:57:13,234] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:57:13,259] {logging_mixin.py:109} INFO - [2022-04-29 13:57:13,259] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:57:13,275] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.189 seconds
+[2022-04-29 13:57:43,582] {processor.py:163} INFO - Started process (PID=1331) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:57:43,583] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:57:43,584] {logging_mixin.py:109} INFO - [2022-04-29 13:57:43,584] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:57:43,683] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:57:43,695] {logging_mixin.py:109} INFO - [2022-04-29 13:57:43,695] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:57:43,715] {logging_mixin.py:109} INFO - [2022-04-29 13:57:43,715] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:57:43,730] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.152 seconds
+[2022-04-29 13:58:14,280] {processor.py:163} INFO - Started process (PID=1370) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:58:14,283] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:58:14,284] {logging_mixin.py:109} INFO - [2022-04-29 13:58:14,284] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:58:14,393] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:58:14,408] {logging_mixin.py:109} INFO - [2022-04-29 13:58:14,408] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:58:14,443] {logging_mixin.py:109} INFO - [2022-04-29 13:58:14,443] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:58:14,464] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.188 seconds
+[2022-04-29 13:58:44,816] {processor.py:163} INFO - Started process (PID=1391) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:58:44,818] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:58:44,819] {logging_mixin.py:109} INFO - [2022-04-29 13:58:44,819] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:58:44,913] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:58:44,924] {logging_mixin.py:109} INFO - [2022-04-29 13:58:44,924] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:58:44,946] {logging_mixin.py:109} INFO - [2022-04-29 13:58:44,945] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:58:44,963] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.150 seconds
+[2022-04-29 13:59:15,435] {processor.py:163} INFO - Started process (PID=1428) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:59:15,439] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:59:15,441] {logging_mixin.py:109} INFO - [2022-04-29 13:59:15,441] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:59:17,641] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:59:17,655] {logging_mixin.py:109} INFO - [2022-04-29 13:59:17,655] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:59:17,688] {logging_mixin.py:109} INFO - [2022-04-29 13:59:17,687] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:59:17,706] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 2.278 seconds
+[2022-04-29 13:59:50,014] {processor.py:163} INFO - Started process (PID=1460) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:59:50,021] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 13:59:50,103] {logging_mixin.py:109} INFO - [2022-04-29 13:59:50,090] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:59:50,508] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 13:59:50,560] {logging_mixin.py:109} INFO - [2022-04-29 13:59:50,560] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 13:59:50,735] {logging_mixin.py:109} INFO - [2022-04-29 13:59:50,734] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 13:59:50,946] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 1.121 seconds
+[2022-04-29 14:00:22,021] {processor.py:163} INFO - Started process (PID=1486) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:00:22,023] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:00:22,024] {logging_mixin.py:109} INFO - [2022-04-29 14:00:22,024] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:00:22,133] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:00:22,150] {logging_mixin.py:109} INFO - [2022-04-29 14:00:22,149] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:00:22,171] {logging_mixin.py:109} INFO - [2022-04-29 14:00:22,171] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:00:22,185] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.168 seconds
+[2022-04-29 14:00:52,703] {processor.py:163} INFO - Started process (PID=1522) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:00:52,704] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:00:52,706] {logging_mixin.py:109} INFO - [2022-04-29 14:00:52,705] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:00:52,843] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:00:52,864] {logging_mixin.py:109} INFO - [2022-04-29 14:00:52,864] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:00:52,890] {logging_mixin.py:109} INFO - [2022-04-29 14:00:52,890] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:00:52,910] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.212 seconds
+[2022-04-29 14:01:23,646] {processor.py:163} INFO - Started process (PID=1543) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:01:23,647] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:01:23,648] {logging_mixin.py:109} INFO - [2022-04-29 14:01:23,648] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:01:23,745] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:01:23,755] {logging_mixin.py:109} INFO - [2022-04-29 14:01:23,755] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:01:23,776] {logging_mixin.py:109} INFO - [2022-04-29 14:01:23,776] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:01:23,788] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.146 seconds
+[2022-04-29 14:01:54,686] {processor.py:163} INFO - Started process (PID=1580) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:01:54,688] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:01:54,689] {logging_mixin.py:109} INFO - [2022-04-29 14:01:54,689] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:01:54,788] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:01:54,809] {logging_mixin.py:109} INFO - [2022-04-29 14:01:54,809] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:01:54,830] {logging_mixin.py:109} INFO - [2022-04-29 14:01:54,830] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:01:54,844] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.161 seconds
+[2022-04-29 14:02:24,935] {processor.py:163} INFO - Started process (PID=1601) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:02:24,936] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:02:24,937] {logging_mixin.py:109} INFO - [2022-04-29 14:02:24,937] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:02:25,047] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:02:25,063] {logging_mixin.py:109} INFO - [2022-04-29 14:02:25,063] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:02:25,088] {logging_mixin.py:109} INFO - [2022-04-29 14:02:25,088] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:02:25,109] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.177 seconds
+[2022-04-29 14:02:55,600] {processor.py:163} INFO - Started process (PID=1638) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:02:55,602] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:02:55,603] {logging_mixin.py:109} INFO - [2022-04-29 14:02:55,603] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:02:55,708] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:02:55,719] {logging_mixin.py:109} INFO - [2022-04-29 14:02:55,719] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:02:55,738] {logging_mixin.py:109} INFO - [2022-04-29 14:02:55,738] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:02:55,754] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.159 seconds
+[2022-04-29 14:03:26,275] {processor.py:163} INFO - Started process (PID=1659) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:03:26,277] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:03:26,278] {logging_mixin.py:109} INFO - [2022-04-29 14:03:26,278] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:03:26,605] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:03:26,616] {logging_mixin.py:109} INFO - [2022-04-29 14:03:26,616] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:03:26,638] {logging_mixin.py:109} INFO - [2022-04-29 14:03:26,638] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:03:26,652] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.382 seconds
+[2022-04-29 14:03:57,374] {processor.py:163} INFO - Started process (PID=1696) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:03:57,376] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:03:57,377] {logging_mixin.py:109} INFO - [2022-04-29 14:03:57,377] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:03:57,480] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:03:57,492] {logging_mixin.py:109} INFO - [2022-04-29 14:03:57,492] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:03:57,513] {logging_mixin.py:109} INFO - [2022-04-29 14:03:57,513] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:03:57,528] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.159 seconds
+[2022-04-29 14:04:27,960] {processor.py:163} INFO - Started process (PID=1717) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:04:27,963] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:04:27,964] {logging_mixin.py:109} INFO - [2022-04-29 14:04:27,964] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:04:28,104] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:04:28,117] {logging_mixin.py:109} INFO - [2022-04-29 14:04:28,117] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:04:28,139] {logging_mixin.py:109} INFO - [2022-04-29 14:04:28,139] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:04:28,154] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.198 seconds
+[2022-04-29 14:04:58,483] {processor.py:163} INFO - Started process (PID=1754) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:04:58,485] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:04:58,486] {logging_mixin.py:109} INFO - [2022-04-29 14:04:58,486] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:04:58,585] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:04:58,596] {logging_mixin.py:109} INFO - [2022-04-29 14:04:58,596] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:04:58,616] {logging_mixin.py:109} INFO - [2022-04-29 14:04:58,616] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:04:58,640] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.161 seconds
+[2022-04-29 14:05:28,817] {processor.py:163} INFO - Started process (PID=1775) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:05:28,819] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:05:28,820] {logging_mixin.py:109} INFO - [2022-04-29 14:05:28,819] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:05:29,028] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:05:29,041] {logging_mixin.py:109} INFO - [2022-04-29 14:05:29,041] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:05:29,060] {logging_mixin.py:109} INFO - [2022-04-29 14:05:29,060] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:05:29,078] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.264 seconds
+[2022-04-29 14:06:00,129] {processor.py:163} INFO - Started process (PID=1811) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:06:00,131] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:06:00,133] {logging_mixin.py:109} INFO - [2022-04-29 14:06:00,132] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:06:00,238] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:06:00,250] {logging_mixin.py:109} INFO - [2022-04-29 14:06:00,250] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:06:00,271] {logging_mixin.py:109} INFO - [2022-04-29 14:06:00,271] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:06:00,285] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.160 seconds
+[2022-04-29 14:06:30,710] {processor.py:163} INFO - Started process (PID=1832) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:06:30,712] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:06:30,715] {logging_mixin.py:109} INFO - [2022-04-29 14:06:30,714] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:06:31,194] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:06:31,208] {logging_mixin.py:109} INFO - [2022-04-29 14:06:31,208] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:06:31,234] {logging_mixin.py:109} INFO - [2022-04-29 14:06:31,232] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:06:31,253] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.721 seconds
+[2022-04-29 14:07:01,445] {processor.py:163} INFO - Started process (PID=1868) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:07:01,448] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:07:01,449] {logging_mixin.py:109} INFO - [2022-04-29 14:07:01,449] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:07:01,565] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:07:01,576] {logging_mixin.py:109} INFO - [2022-04-29 14:07:01,576] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:07:01,598] {logging_mixin.py:109} INFO - [2022-04-29 14:07:01,598] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:07:01,618] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.178 seconds
+[2022-04-29 14:07:32,329] {processor.py:163} INFO - Started process (PID=1889) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:07:32,340] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:07:32,354] {logging_mixin.py:109} INFO - [2022-04-29 14:07:32,344] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:07:32,877] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:07:32,894] {logging_mixin.py:109} INFO - [2022-04-29 14:07:32,893] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:07:33,026] {logging_mixin.py:109} INFO - [2022-04-29 14:07:33,026] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:07:33,041] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.724 seconds
+[2022-04-29 14:08:03,576] {processor.py:163} INFO - Started process (PID=1926) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:08:03,578] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:08:03,579] {logging_mixin.py:109} INFO - [2022-04-29 14:08:03,579] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:08:03,682] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:08:03,694] {logging_mixin.py:109} INFO - [2022-04-29 14:08:03,694] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:08:03,714] {logging_mixin.py:109} INFO - [2022-04-29 14:08:03,714] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:08:03,728] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.156 seconds
+[2022-04-29 14:08:34,360] {processor.py:163} INFO - Started process (PID=1947) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:08:34,362] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:08:34,362] {logging_mixin.py:109} INFO - [2022-04-29 14:08:34,362] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:08:34,686] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:08:34,708] {logging_mixin.py:109} INFO - [2022-04-29 14:08:34,707] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:08:34,734] {logging_mixin.py:109} INFO - [2022-04-29 14:08:34,734] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:08:34,760] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.405 seconds
+[2022-04-29 14:09:05,325] {processor.py:163} INFO - Started process (PID=1984) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:09:05,328] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:09:05,329] {logging_mixin.py:109} INFO - [2022-04-29 14:09:05,329] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:09:05,452] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:09:05,466] {logging_mixin.py:109} INFO - [2022-04-29 14:09:05,466] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:09:05,486] {logging_mixin.py:109} INFO - [2022-04-29 14:09:05,486] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:09:05,504] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.183 seconds
+[2022-04-29 14:09:36,133] {processor.py:163} INFO - Started process (PID=2005) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:09:36,136] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:09:36,137] {logging_mixin.py:109} INFO - [2022-04-29 14:09:36,137] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:09:36,251] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:09:36,280] {logging_mixin.py:109} INFO - [2022-04-29 14:09:36,280] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:09:36,305] {logging_mixin.py:109} INFO - [2022-04-29 14:09:36,305] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:09:36,325] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.203 seconds
+[2022-04-29 14:10:06,899] {processor.py:163} INFO - Started process (PID=2042) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:10:06,901] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:10:06,902] {logging_mixin.py:109} INFO - [2022-04-29 14:10:06,902] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:10:07,012] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:10:07,025] {logging_mixin.py:109} INFO - [2022-04-29 14:10:07,025] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:10:07,049] {logging_mixin.py:109} INFO - [2022-04-29 14:10:07,049] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:10:07,070] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.174 seconds
+[2022-04-29 14:10:37,508] {processor.py:163} INFO - Started process (PID=2063) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:10:37,510] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:10:37,511] {logging_mixin.py:109} INFO - [2022-04-29 14:10:37,510] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:10:37,619] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:10:37,632] {logging_mixin.py:109} INFO - [2022-04-29 14:10:37,631] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:10:37,657] {logging_mixin.py:109} INFO - [2022-04-29 14:10:37,657] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:10:37,674] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.170 seconds
+[2022-04-29 14:11:08,116] {processor.py:163} INFO - Started process (PID=2100) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:11:08,119] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:11:08,120] {logging_mixin.py:109} INFO - [2022-04-29 14:11:08,120] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:11:08,229] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:11:08,245] {logging_mixin.py:109} INFO - [2022-04-29 14:11:08,244] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:11:08,296] {logging_mixin.py:109} INFO - [2022-04-29 14:11:08,296] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:11:08,327] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.214 seconds
+[2022-04-29 14:11:38,926] {processor.py:163} INFO - Started process (PID=2121) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:11:38,931] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:11:38,932] {logging_mixin.py:109} INFO - [2022-04-29 14:11:38,932] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:11:39,169] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:11:39,222] {logging_mixin.py:109} INFO - [2022-04-29 14:11:39,219] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:11:39,288] {logging_mixin.py:109} INFO - [2022-04-29 14:11:39,288] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:11:39,329] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.438 seconds
+[2022-04-29 14:12:09,463] {processor.py:163} INFO - Started process (PID=2158) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:12:09,465] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:12:09,467] {logging_mixin.py:109} INFO - [2022-04-29 14:12:09,467] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:12:09,619] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:12:09,631] {logging_mixin.py:109} INFO - [2022-04-29 14:12:09,631] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:12:09,654] {logging_mixin.py:109} INFO - [2022-04-29 14:12:09,654] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:12:09,671] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.212 seconds
+[2022-04-29 14:12:40,385] {processor.py:163} INFO - Started process (PID=2179) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:12:40,387] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:12:40,388] {logging_mixin.py:109} INFO - [2022-04-29 14:12:40,388] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:12:40,611] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:12:40,625] {logging_mixin.py:109} INFO - [2022-04-29 14:12:40,625] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:12:40,651] {logging_mixin.py:109} INFO - [2022-04-29 14:12:40,651] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:12:40,808] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.427 seconds
+[2022-04-29 14:13:11,465] {processor.py:163} INFO - Started process (PID=2215) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:13:11,467] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:13:11,469] {logging_mixin.py:109} INFO - [2022-04-29 14:13:11,469] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:13:11,622] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:13:11,642] {logging_mixin.py:109} INFO - [2022-04-29 14:13:11,642] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:13:11,666] {logging_mixin.py:109} INFO - [2022-04-29 14:13:11,666] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:13:11,686] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.226 seconds
+[2022-04-29 14:13:42,049] {processor.py:163} INFO - Started process (PID=2236) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:13:42,051] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:13:42,052] {logging_mixin.py:109} INFO - [2022-04-29 14:13:42,052] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:13:42,180] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:13:42,198] {logging_mixin.py:109} INFO - [2022-04-29 14:13:42,198] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:13:42,231] {logging_mixin.py:109} INFO - [2022-04-29 14:13:42,230] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:13:42,246] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.202 seconds
+[2022-04-29 14:14:12,316] {processor.py:163} INFO - Started process (PID=2274) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:14:12,317] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:14:12,318] {logging_mixin.py:109} INFO - [2022-04-29 14:14:12,318] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:14:12,727] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:14:12,758] {logging_mixin.py:109} INFO - [2022-04-29 14:14:12,758] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:14:12,831] {logging_mixin.py:109} INFO - [2022-04-29 14:14:12,831] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:14:12,845] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.533 seconds
+[2022-04-29 14:14:43,461] {processor.py:163} INFO - Started process (PID=2295) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:14:43,462] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:14:43,463] {logging_mixin.py:109} INFO - [2022-04-29 14:14:43,463] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:14:43,568] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:14:43,581] {logging_mixin.py:109} INFO - [2022-04-29 14:14:43,581] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:14:43,601] {logging_mixin.py:109} INFO - [2022-04-29 14:14:43,600] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:14:43,618] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.162 seconds
+[2022-04-29 14:15:14,390] {processor.py:163} INFO - Started process (PID=2332) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:15:14,394] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:15:14,397] {logging_mixin.py:109} INFO - [2022-04-29 14:15:14,396] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:15:14,602] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:15:14,636] {logging_mixin.py:109} INFO - [2022-04-29 14:15:14,636] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:15:14,658] {logging_mixin.py:109} INFO - [2022-04-29 14:15:14,658] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:15:14,675] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.291 seconds
+[2022-04-29 14:15:45,461] {processor.py:163} INFO - Started process (PID=2362) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:15:45,463] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:15:45,465] {logging_mixin.py:109} INFO - [2022-04-29 14:15:45,465] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:15:45,619] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:15:45,633] {logging_mixin.py:109} INFO - [2022-04-29 14:15:45,633] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:15:45,663] {logging_mixin.py:109} INFO - [2022-04-29 14:15:45,662] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:15:45,680] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.226 seconds
+[2022-04-29 14:16:16,429] {processor.py:163} INFO - Started process (PID=2390) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:16:16,431] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:16:16,433] {logging_mixin.py:109} INFO - [2022-04-29 14:16:16,433] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:16:16,598] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:16:16,610] {logging_mixin.py:109} INFO - [2022-04-29 14:16:16,610] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:16:16,633] {logging_mixin.py:109} INFO - [2022-04-29 14:16:16,633] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:16:16,650] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.225 seconds
+[2022-04-29 14:16:47,286] {processor.py:163} INFO - Started process (PID=2422) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:16:47,288] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:16:47,290] {logging_mixin.py:109} INFO - [2022-04-29 14:16:47,289] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:16:47,566] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:16:47,580] {logging_mixin.py:109} INFO - [2022-04-29 14:16:47,579] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:16:47,600] {logging_mixin.py:109} INFO - [2022-04-29 14:16:47,600] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:16:47,616] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.335 seconds
+[2022-04-29 14:17:17,832] {processor.py:163} INFO - Started process (PID=2448) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:17:17,834] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:17:17,835] {logging_mixin.py:109} INFO - [2022-04-29 14:17:17,835] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:17:17,984] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:17:17,996] {logging_mixin.py:109} INFO - [2022-04-29 14:17:17,996] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:17:18,018] {logging_mixin.py:109} INFO - [2022-04-29 14:17:18,018] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:17:18,042] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.215 seconds
+[2022-04-29 14:17:48,804] {processor.py:163} INFO - Started process (PID=2486) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:17:48,807] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:17:48,809] {logging_mixin.py:109} INFO - [2022-04-29 14:17:48,809] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:17:49,030] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:17:49,045] {logging_mixin.py:109} INFO - [2022-04-29 14:17:49,045] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:17:49,067] {logging_mixin.py:109} INFO - [2022-04-29 14:17:49,067] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:17:49,083] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.285 seconds
+[2022-04-29 14:18:19,329] {processor.py:163} INFO - Started process (PID=2507) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:18:19,331] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:18:19,332] {logging_mixin.py:109} INFO - [2022-04-29 14:18:19,332] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:18:19,472] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:18:19,488] {logging_mixin.py:109} INFO - [2022-04-29 14:18:19,488] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:18:19,519] {logging_mixin.py:109} INFO - [2022-04-29 14:18:19,519] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:18:19,532] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.208 seconds
+[2022-04-29 14:18:50,018] {processor.py:163} INFO - Started process (PID=2544) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:18:50,021] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:18:50,022] {logging_mixin.py:109} INFO - [2022-04-29 14:18:50,022] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:18:50,256] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:18:50,270] {logging_mixin.py:109} INFO - [2022-04-29 14:18:50,270] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:18:50,296] {logging_mixin.py:109} INFO - [2022-04-29 14:18:50,296] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:18:50,315] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.306 seconds
+[2022-04-29 14:19:20,677] {processor.py:163} INFO - Started process (PID=2572) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:19:20,678] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:19:20,679] {logging_mixin.py:109} INFO - [2022-04-29 14:19:20,679] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:19:20,793] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:19:20,870] {logging_mixin.py:109} INFO - [2022-04-29 14:19:20,868] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:19:20,922] {logging_mixin.py:109} INFO - [2022-04-29 14:19:20,922] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:19:20,936] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.263 seconds
+[2022-04-29 14:19:51,038] {processor.py:163} INFO - Started process (PID=2609) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:19:51,040] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:19:51,043] {logging_mixin.py:109} INFO - [2022-04-29 14:19:51,043] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:19:51,156] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:19:51,168] {logging_mixin.py:109} INFO - [2022-04-29 14:19:51,168] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:19:51,195] {logging_mixin.py:109} INFO - [2022-04-29 14:19:51,195] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:19:51,213] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.179 seconds
+[2022-04-29 14:20:21,271] {processor.py:163} INFO - Started process (PID=2627) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:20:21,273] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:20:21,274] {logging_mixin.py:109} INFO - [2022-04-29 14:20:21,274] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:20:21,376] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:20:21,388] {logging_mixin.py:109} INFO - [2022-04-29 14:20:21,388] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:20:21,410] {logging_mixin.py:109} INFO - [2022-04-29 14:20:21,410] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:20:21,425] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.157 seconds
+[2022-04-29 14:20:52,177] {processor.py:163} INFO - Started process (PID=2660) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:20:52,180] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:20:52,181] {logging_mixin.py:109} INFO - [2022-04-29 14:20:52,181] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:20:52,453] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:20:52,483] {logging_mixin.py:109} INFO - [2022-04-29 14:20:52,483] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:20:52,538] {logging_mixin.py:109} INFO - [2022-04-29 14:20:52,538] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:20:52,702] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.529 seconds
+[2022-04-29 14:21:23,330] {processor.py:163} INFO - Started process (PID=2681) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:21:23,332] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:21:23,334] {logging_mixin.py:109} INFO - [2022-04-29 14:21:23,334] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:21:23,447] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:21:23,463] {logging_mixin.py:109} INFO - [2022-04-29 14:21:23,463] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:21:23,497] {logging_mixin.py:109} INFO - [2022-04-29 14:21:23,497] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:21:23,516] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.192 seconds
+[2022-04-29 14:21:53,913] {processor.py:163} INFO - Started process (PID=2717) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:21:53,915] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:21:53,916] {logging_mixin.py:109} INFO - [2022-04-29 14:21:53,915] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:21:54,035] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:21:54,049] {logging_mixin.py:109} INFO - [2022-04-29 14:21:54,049] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:21:54,077] {logging_mixin.py:109} INFO - [2022-04-29 14:21:54,077] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:21:54,107] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.198 seconds
+[2022-04-29 14:22:24,883] {processor.py:163} INFO - Started process (PID=2738) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:22:24,885] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:22:24,886] {logging_mixin.py:109} INFO - [2022-04-29 14:22:24,886] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:22:25,180] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:22:25,197] {logging_mixin.py:109} INFO - [2022-04-29 14:22:25,196] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:22:25,220] {logging_mixin.py:109} INFO - [2022-04-29 14:22:25,219] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:22:25,236] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.369 seconds
+[2022-04-29 14:22:55,869] {processor.py:163} INFO - Started process (PID=2777) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:22:55,871] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:22:55,872] {logging_mixin.py:109} INFO - [2022-04-29 14:22:55,871] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:22:55,983] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:22:55,996] {logging_mixin.py:109} INFO - [2022-04-29 14:22:55,996] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:22:56,023] {logging_mixin.py:109} INFO - [2022-04-29 14:22:56,023] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:22:56,044] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.179 seconds
+[2022-04-29 14:23:26,756] {processor.py:163} INFO - Started process (PID=2798) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:23:26,770] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:23:26,772] {logging_mixin.py:109} INFO - [2022-04-29 14:23:26,771] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:23:26,916] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:23:26,929] {logging_mixin.py:109} INFO - [2022-04-29 14:23:26,929] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:23:26,954] {logging_mixin.py:109} INFO - [2022-04-29 14:23:26,954] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:23:26,970] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.219 seconds
+[2022-04-29 14:23:57,226] {processor.py:163} INFO - Started process (PID=2836) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:23:57,235] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:23:57,253] {logging_mixin.py:109} INFO - [2022-04-29 14:23:57,253] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:23:57,400] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:23:57,440] {logging_mixin.py:109} INFO - [2022-04-29 14:23:57,440] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:23:57,471] {logging_mixin.py:109} INFO - [2022-04-29 14:23:57,470] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:23:57,502] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.280 seconds
+[2022-04-29 14:24:27,782] {processor.py:163} INFO - Started process (PID=2857) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:24:27,784] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:24:27,785] {logging_mixin.py:109} INFO - [2022-04-29 14:24:27,785] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:24:27,897] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:24:27,908] {logging_mixin.py:109} INFO - [2022-04-29 14:24:27,908] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:24:27,933] {logging_mixin.py:109} INFO - [2022-04-29 14:24:27,933] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:24:27,950] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.172 seconds
+[2022-04-29 14:24:58,136] {processor.py:163} INFO - Started process (PID=2895) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:24:58,139] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:24:58,142] {logging_mixin.py:109} INFO - [2022-04-29 14:24:58,141] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:24:58,324] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:24:58,337] {logging_mixin.py:109} INFO - [2022-04-29 14:24:58,337] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:24:58,366] {logging_mixin.py:109} INFO - [2022-04-29 14:24:58,366] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:24:58,384] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.254 seconds
+[2022-04-29 14:25:28,544] {processor.py:163} INFO - Started process (PID=2916) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:25:28,545] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:25:28,546] {logging_mixin.py:109} INFO - [2022-04-29 14:25:28,546] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:25:28,658] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:25:28,673] {logging_mixin.py:109} INFO - [2022-04-29 14:25:28,673] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:25:28,697] {logging_mixin.py:109} INFO - [2022-04-29 14:25:28,697] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:25:28,715] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.175 seconds
+[2022-04-29 14:25:59,158] {processor.py:163} INFO - Started process (PID=2953) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:25:59,160] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:25:59,161] {logging_mixin.py:109} INFO - [2022-04-29 14:25:59,161] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:25:59,386] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:25:59,397] {logging_mixin.py:109} INFO - [2022-04-29 14:25:59,396] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:25:59,419] {logging_mixin.py:109} INFO - [2022-04-29 14:25:59,419] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:25:59,437] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.283 seconds
+[2022-04-29 14:26:29,558] {processor.py:163} INFO - Started process (PID=2974) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:26:29,560] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:26:29,561] {logging_mixin.py:109} INFO - [2022-04-29 14:26:29,561] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:26:29,686] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:26:29,698] {logging_mixin.py:109} INFO - [2022-04-29 14:26:29,697] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:26:29,721] {logging_mixin.py:109} INFO - [2022-04-29 14:26:29,721] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:26:29,738] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.185 seconds
+[2022-04-29 14:26:59,974] {processor.py:163} INFO - Started process (PID=3010) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:26:59,975] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:26:59,977] {logging_mixin.py:109} INFO - [2022-04-29 14:26:59,977] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:27:00,195] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:27:00,210] {logging_mixin.py:109} INFO - [2022-04-29 14:27:00,210] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:27:00,256] {logging_mixin.py:109} INFO - [2022-04-29 14:27:00,255] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:27:00,270] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.300 seconds
+[2022-04-29 14:27:30,394] {processor.py:163} INFO - Started process (PID=3031) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:27:30,395] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:27:30,397] {logging_mixin.py:109} INFO - [2022-04-29 14:27:30,397] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:27:30,825] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:27:30,854] {logging_mixin.py:109} INFO - [2022-04-29 14:27:30,854] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:27:30,882] {logging_mixin.py:109} INFO - [2022-04-29 14:27:30,882] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:27:30,903] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.513 seconds
+[2022-04-29 14:28:01,656] {processor.py:163} INFO - Started process (PID=3069) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:28:01,657] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:28:01,658] {logging_mixin.py:109} INFO - [2022-04-29 14:28:01,658] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:28:01,814] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:28:01,828] {logging_mixin.py:109} INFO - [2022-04-29 14:28:01,828] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:28:01,860] {logging_mixin.py:109} INFO - [2022-04-29 14:28:01,860] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:28:01,882] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.229 seconds
+[2022-04-29 14:28:32,165] {processor.py:163} INFO - Started process (PID=3090) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:28:32,166] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:28:32,167] {logging_mixin.py:109} INFO - [2022-04-29 14:28:32,167] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:28:32,339] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:28:32,355] {logging_mixin.py:109} INFO - [2022-04-29 14:28:32,355] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:28:32,377] {logging_mixin.py:109} INFO - [2022-04-29 14:28:32,377] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:28:32,394] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.233 seconds
+[2022-04-29 14:29:03,010] {processor.py:163} INFO - Started process (PID=3127) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:29:03,012] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:29:03,013] {logging_mixin.py:109} INFO - [2022-04-29 14:29:03,013] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:29:03,120] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:29:03,131] {logging_mixin.py:109} INFO - [2022-04-29 14:29:03,131] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:29:03,156] {logging_mixin.py:109} INFO - [2022-04-29 14:29:03,155] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:29:03,173] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.167 seconds
+[2022-04-29 14:29:33,567] {processor.py:163} INFO - Started process (PID=3148) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:29:33,569] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:29:33,570] {logging_mixin.py:109} INFO - [2022-04-29 14:29:33,570] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:29:33,807] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:29:33,818] {logging_mixin.py:109} INFO - [2022-04-29 14:29:33,818] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:29:33,839] {logging_mixin.py:109} INFO - [2022-04-29 14:29:33,839] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:29:33,855] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.294 seconds
+[2022-04-29 14:30:04,327] {processor.py:163} INFO - Started process (PID=3184) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:30:04,329] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:30:04,330] {logging_mixin.py:109} INFO - [2022-04-29 14:30:04,330] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:30:04,443] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:30:04,457] {logging_mixin.py:109} INFO - [2022-04-29 14:30:04,457] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:30:04,487] {logging_mixin.py:109} INFO - [2022-04-29 14:30:04,484] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:30:04,506] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.182 seconds
+[2022-04-29 14:30:35,085] {processor.py:163} INFO - Started process (PID=3205) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:30:35,087] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:30:35,088] {logging_mixin.py:109} INFO - [2022-04-29 14:30:35,088] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:30:35,210] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:30:35,221] {logging_mixin.py:109} INFO - [2022-04-29 14:30:35,221] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:30:35,244] {logging_mixin.py:109} INFO - [2022-04-29 14:30:35,244] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:30:35,260] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.181 seconds
+[2022-04-29 14:31:05,907] {processor.py:163} INFO - Started process (PID=3241) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:31:05,908] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:31:05,909] {logging_mixin.py:109} INFO - [2022-04-29 14:31:05,909] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:31:06,026] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:31:06,041] {logging_mixin.py:109} INFO - [2022-04-29 14:31:06,041] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:31:06,065] {logging_mixin.py:109} INFO - [2022-04-29 14:31:06,065] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:31:06,083] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.181 seconds
+[2022-04-29 14:31:36,763] {processor.py:163} INFO - Started process (PID=3262) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:31:36,765] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:31:36,766] {logging_mixin.py:109} INFO - [2022-04-29 14:31:36,766] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:31:36,873] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:31:36,900] {logging_mixin.py:109} INFO - [2022-04-29 14:31:36,900] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:31:36,929] {logging_mixin.py:109} INFO - [2022-04-29 14:31:36,929] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:31:36,946] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.186 seconds
+[2022-04-29 14:32:07,502] {processor.py:163} INFO - Started process (PID=3299) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:32:07,504] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:32:07,505] {logging_mixin.py:109} INFO - [2022-04-29 14:32:07,505] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:32:07,613] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:32:07,626] {logging_mixin.py:109} INFO - [2022-04-29 14:32:07,625] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:32:07,650] {logging_mixin.py:109} INFO - [2022-04-29 14:32:07,650] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:32:07,666] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.171 seconds
+[2022-04-29 14:32:38,047] {processor.py:163} INFO - Started process (PID=3320) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:32:38,052] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:32:38,053] {logging_mixin.py:109} INFO - [2022-04-29 14:32:38,053] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:32:38,202] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:32:38,213] {logging_mixin.py:109} INFO - [2022-04-29 14:32:38,212] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:32:38,240] {logging_mixin.py:109} INFO - [2022-04-29 14:32:38,240] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:32:38,261] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.218 seconds
+[2022-04-29 14:33:08,557] {processor.py:163} INFO - Started process (PID=3356) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:33:08,559] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:33:08,560] {logging_mixin.py:109} INFO - [2022-04-29 14:33:08,560] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:33:08,682] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:33:08,698] {logging_mixin.py:109} INFO - [2022-04-29 14:33:08,698] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:33:08,727] {logging_mixin.py:109} INFO - [2022-04-29 14:33:08,727] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:33:08,754] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.201 seconds
+[2022-04-29 14:33:39,160] {processor.py:163} INFO - Started process (PID=3377) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:33:39,163] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:33:39,165] {logging_mixin.py:109} INFO - [2022-04-29 14:33:39,165] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:33:39,843] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:33:39,856] {logging_mixin.py:109} INFO - [2022-04-29 14:33:39,856] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:33:39,876] {logging_mixin.py:109} INFO - [2022-04-29 14:33:39,876] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:33:39,914] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.760 seconds
+[2022-04-29 14:34:10,730] {processor.py:163} INFO - Started process (PID=3413) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:34:10,732] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:34:10,734] {logging_mixin.py:109} INFO - [2022-04-29 14:34:10,734] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:34:11,120] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:34:11,131] {logging_mixin.py:109} INFO - [2022-04-29 14:34:11,131] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:34:11,156] {logging_mixin.py:109} INFO - [2022-04-29 14:34:11,156] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:34:11,173] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.447 seconds
+[2022-04-29 14:34:41,888] {processor.py:163} INFO - Started process (PID=3434) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:34:41,892] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:34:41,896] {logging_mixin.py:109} INFO - [2022-04-29 14:34:41,896] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:34:42,045] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:34:42,076] {logging_mixin.py:109} INFO - [2022-04-29 14:34:42,076] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:34:42,108] {logging_mixin.py:109} INFO - [2022-04-29 14:34:42,108] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:34:42,154] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.275 seconds
+[2022-04-29 14:35:12,723] {processor.py:163} INFO - Started process (PID=3471) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:35:12,726] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:35:12,727] {logging_mixin.py:109} INFO - [2022-04-29 14:35:12,727] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:35:12,859] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:35:12,870] {logging_mixin.py:109} INFO - [2022-04-29 14:35:12,870] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:35:12,891] {logging_mixin.py:109} INFO - [2022-04-29 14:35:12,891] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:35:12,909] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.191 seconds
+[2022-04-29 14:35:43,645] {processor.py:163} INFO - Started process (PID=3492) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:35:43,647] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:35:43,649] {logging_mixin.py:109} INFO - [2022-04-29 14:35:43,648] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:35:43,762] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:35:43,778] {logging_mixin.py:109} INFO - [2022-04-29 14:35:43,778] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:35:43,917] {logging_mixin.py:109} INFO - [2022-04-29 14:35:43,917] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:35:43,947] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.306 seconds
+[2022-04-29 14:36:14,981] {processor.py:163} INFO - Started process (PID=3529) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:36:14,985] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:36:14,986] {logging_mixin.py:109} INFO - [2022-04-29 14:36:14,986] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:36:15,100] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:36:15,112] {logging_mixin.py:109} INFO - [2022-04-29 14:36:15,112] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:36:15,142] {logging_mixin.py:109} INFO - [2022-04-29 14:36:15,142] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:36:15,326] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.348 seconds
+[2022-04-29 14:36:45,545] {processor.py:163} INFO - Started process (PID=3563) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:36:45,546] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:36:45,547] {logging_mixin.py:109} INFO - [2022-04-29 14:36:45,547] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:36:45,736] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:36:45,748] {logging_mixin.py:109} INFO - [2022-04-29 14:36:45,748] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:36:45,777] {logging_mixin.py:109} INFO - [2022-04-29 14:36:45,777] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:36:45,798] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.257 seconds
+[2022-04-29 14:37:16,326] {processor.py:163} INFO - Started process (PID=3587) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:37:16,328] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:37:16,330] {logging_mixin.py:109} INFO - [2022-04-29 14:37:16,330] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:37:16,544] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:37:16,559] {logging_mixin.py:109} INFO - [2022-04-29 14:37:16,559] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:37:16,582] {logging_mixin.py:109} INFO - [2022-04-29 14:37:16,582] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:37:16,602] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.284 seconds
+[2022-04-29 14:37:46,931] {processor.py:163} INFO - Started process (PID=3619) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:37:46,934] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:37:46,939] {logging_mixin.py:109} INFO - [2022-04-29 14:37:46,938] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:37:47,131] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:37:47,146] {logging_mixin.py:109} INFO - [2022-04-29 14:37:47,146] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:37:47,172] {logging_mixin.py:109} INFO - [2022-04-29 14:37:47,171] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:37:47,202] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.275 seconds
+[2022-04-29 14:38:17,460] {processor.py:163} INFO - Started process (PID=3645) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:38:17,461] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:38:17,462] {logging_mixin.py:109} INFO - [2022-04-29 14:38:17,462] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:38:17,585] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:38:17,600] {logging_mixin.py:109} INFO - [2022-04-29 14:38:17,599] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:38:17,624] {logging_mixin.py:109} INFO - [2022-04-29 14:38:17,624] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:38:17,645] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.190 seconds
+[2022-04-29 14:38:47,818] {processor.py:163} INFO - Started process (PID=3677) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:38:47,822] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:38:47,823] {logging_mixin.py:109} INFO - [2022-04-29 14:38:47,823] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:38:47,973] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:38:47,987] {logging_mixin.py:109} INFO - [2022-04-29 14:38:47,986] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:38:48,021] {logging_mixin.py:109} INFO - [2022-04-29 14:38:48,021] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:38:48,145] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.332 seconds
+[2022-04-29 14:39:18,896] {processor.py:163} INFO - Started process (PID=3703) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:39:18,898] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:39:18,899] {logging_mixin.py:109} INFO - [2022-04-29 14:39:18,899] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:39:19,062] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:39:19,076] {logging_mixin.py:109} INFO - [2022-04-29 14:39:19,076] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:39:19,098] {logging_mixin.py:109} INFO - [2022-04-29 14:39:19,098] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:39:19,125] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.232 seconds
+[2022-04-29 14:39:49,677] {processor.py:163} INFO - Started process (PID=3743) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:39:49,680] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:39:49,682] {logging_mixin.py:109} INFO - [2022-04-29 14:39:49,681] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:39:50,259] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:39:50,279] {logging_mixin.py:109} INFO - [2022-04-29 14:39:50,279] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:39:50,314] {logging_mixin.py:109} INFO - [2022-04-29 14:39:50,314] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:39:50,353] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.683 seconds
+[2022-04-29 14:40:21,159] {processor.py:163} INFO - Started process (PID=3760) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:40:21,160] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:40:21,161] {logging_mixin.py:109} INFO - [2022-04-29 14:40:21,161] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:40:21,309] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:40:21,321] {logging_mixin.py:109} INFO - [2022-04-29 14:40:21,321] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:40:21,344] {logging_mixin.py:109} INFO - [2022-04-29 14:40:21,343] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:40:21,380] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.225 seconds
+[2022-04-29 14:40:52,140] {processor.py:163} INFO - Started process (PID=3797) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:40:52,144] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:40:52,146] {logging_mixin.py:109} INFO - [2022-04-29 14:40:52,146] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:40:52,340] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:40:52,417] {logging_mixin.py:109} INFO - [2022-04-29 14:40:52,417] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:40:52,462] {logging_mixin.py:109} INFO - [2022-04-29 14:40:52,462] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:40:52,489] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.356 seconds
+[2022-04-29 14:41:22,646] {processor.py:163} INFO - Started process (PID=3818) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:41:22,648] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:41:22,649] {logging_mixin.py:109} INFO - [2022-04-29 14:41:22,649] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:41:22,747] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:41:22,762] {logging_mixin.py:109} INFO - [2022-04-29 14:41:22,762] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:41:22,782] {logging_mixin.py:109} INFO - [2022-04-29 14:41:22,782] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:41:22,799] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.156 seconds
+[2022-04-29 14:41:52,896] {processor.py:163} INFO - Started process (PID=3854) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:41:52,898] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:41:52,899] {logging_mixin.py:109} INFO - [2022-04-29 14:41:52,899] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:41:53,007] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:41:53,019] {logging_mixin.py:109} INFO - [2022-04-29 14:41:53,019] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:41:53,042] {logging_mixin.py:109} INFO - [2022-04-29 14:41:53,042] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:41:53,059] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.166 seconds
+[2022-04-29 14:42:23,223] {processor.py:163} INFO - Started process (PID=3875) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:42:23,225] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:42:23,227] {logging_mixin.py:109} INFO - [2022-04-29 14:42:23,227] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:42:23,345] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:42:23,360] {logging_mixin.py:109} INFO - [2022-04-29 14:42:23,360] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:42:23,382] {logging_mixin.py:109} INFO - [2022-04-29 14:42:23,382] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:42:23,399] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.179 seconds
+[2022-04-29 14:42:53,915] {processor.py:163} INFO - Started process (PID=3912) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:42:53,917] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:42:53,919] {logging_mixin.py:109} INFO - [2022-04-29 14:42:53,918] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:42:54,044] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:42:54,059] {logging_mixin.py:109} INFO - [2022-04-29 14:42:54,059] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:42:54,083] {logging_mixin.py:109} INFO - [2022-04-29 14:42:54,082] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:42:54,100] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.188 seconds
+[2022-04-29 14:43:24,268] {processor.py:163} INFO - Started process (PID=3933) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:43:24,271] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:43:24,274] {logging_mixin.py:109} INFO - [2022-04-29 14:43:24,273] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:43:24,388] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:43:24,403] {logging_mixin.py:109} INFO - [2022-04-29 14:43:24,402] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:43:24,430] {logging_mixin.py:109} INFO - [2022-04-29 14:43:24,430] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:43:24,515] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.251 seconds
+[2022-04-29 14:43:55,206] {processor.py:163} INFO - Started process (PID=3970) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:43:55,208] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:43:55,210] {logging_mixin.py:109} INFO - [2022-04-29 14:43:55,210] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:43:55,325] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:43:55,340] {logging_mixin.py:109} INFO - [2022-04-29 14:43:55,340] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:43:55,371] {logging_mixin.py:109} INFO - [2022-04-29 14:43:55,371] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:43:55,388] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.186 seconds
+[2022-04-29 14:44:25,783] {processor.py:163} INFO - Started process (PID=3991) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:44:25,786] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:44:25,788] {logging_mixin.py:109} INFO - [2022-04-29 14:44:25,788] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:44:25,917] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:44:25,930] {logging_mixin.py:109} INFO - [2022-04-29 14:44:25,930] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:44:25,958] {logging_mixin.py:109} INFO - [2022-04-29 14:44:25,958] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:44:25,976] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.200 seconds
+[2022-04-29 14:44:56,897] {processor.py:163} INFO - Started process (PID=4028) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:44:56,899] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:44:56,900] {logging_mixin.py:109} INFO - [2022-04-29 14:44:56,899] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:44:57,018] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:44:57,031] {logging_mixin.py:109} INFO - [2022-04-29 14:44:57,031] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:44:57,054] {logging_mixin.py:109} INFO - [2022-04-29 14:44:57,053] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:44:57,070] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.176 seconds
+[2022-04-29 14:45:27,235] {processor.py:163} INFO - Started process (PID=4049) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:45:27,238] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:45:27,241] {logging_mixin.py:109} INFO - [2022-04-29 14:45:27,240] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:45:27,364] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:45:27,380] {logging_mixin.py:109} INFO - [2022-04-29 14:45:27,380] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:45:27,403] {logging_mixin.py:109} INFO - [2022-04-29 14:45:27,403] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:45:27,420] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.188 seconds
+[2022-04-29 14:45:57,682] {processor.py:163} INFO - Started process (PID=4086) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:45:57,684] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:45:57,685] {logging_mixin.py:109} INFO - [2022-04-29 14:45:57,685] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:45:57,790] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:45:57,804] {logging_mixin.py:109} INFO - [2022-04-29 14:45:57,804] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:45:57,829] {logging_mixin.py:109} INFO - [2022-04-29 14:45:57,829] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:45:57,848] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.169 seconds
+[2022-04-29 14:46:27,944] {processor.py:163} INFO - Started process (PID=4107) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:46:27,947] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:46:27,948] {logging_mixin.py:109} INFO - [2022-04-29 14:46:27,948] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:46:28,052] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:46:28,065] {logging_mixin.py:109} INFO - [2022-04-29 14:46:28,065] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:46:28,086] {logging_mixin.py:109} INFO - [2022-04-29 14:46:28,086] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:46:28,102] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.161 seconds
+[2022-04-29 14:46:58,348] {processor.py:163} INFO - Started process (PID=4143) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:46:58,349] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:46:58,351] {logging_mixin.py:109} INFO - [2022-04-29 14:46:58,350] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:46:58,524] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:46:58,539] {logging_mixin.py:109} INFO - [2022-04-29 14:46:58,538] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:46:58,563] {logging_mixin.py:109} INFO - [2022-04-29 14:46:58,563] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:46:58,579] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.235 seconds
+[2022-04-29 14:47:28,783] {processor.py:163} INFO - Started process (PID=4164) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:47:28,786] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:47:28,787] {logging_mixin.py:109} INFO - [2022-04-29 14:47:28,787] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:47:29,015] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:47:29,028] {logging_mixin.py:109} INFO - [2022-04-29 14:47:29,028] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:47:29,052] {logging_mixin.py:109} INFO - [2022-04-29 14:47:29,051] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:47:29,078] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.298 seconds
+[2022-04-29 14:47:59,192] {processor.py:163} INFO - Started process (PID=4201) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:47:59,195] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:47:59,197] {logging_mixin.py:109} INFO - [2022-04-29 14:47:59,196] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:47:59,311] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:47:59,325] {logging_mixin.py:109} INFO - [2022-04-29 14:47:59,325] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:47:59,347] {logging_mixin.py:109} INFO - [2022-04-29 14:47:59,347] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:47:59,365] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.181 seconds
+[2022-04-29 14:48:29,599] {processor.py:163} INFO - Started process (PID=4222) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:48:29,607] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:48:29,610] {logging_mixin.py:109} INFO - [2022-04-29 14:48:29,610] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:48:29,874] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:48:29,889] {logging_mixin.py:109} INFO - [2022-04-29 14:48:29,889] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:48:29,913] {logging_mixin.py:109} INFO - [2022-04-29 14:48:29,913] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:48:29,950] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.355 seconds
+[2022-04-29 14:49:00,057] {processor.py:163} INFO - Started process (PID=4259) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:49:00,059] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:49:00,060] {logging_mixin.py:109} INFO - [2022-04-29 14:49:00,060] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:49:00,259] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:49:00,271] {logging_mixin.py:109} INFO - [2022-04-29 14:49:00,271] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:49:00,292] {logging_mixin.py:109} INFO - [2022-04-29 14:49:00,292] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:49:00,311] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.258 seconds
+[2022-04-29 14:49:30,688] {processor.py:163} INFO - Started process (PID=4280) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:49:30,690] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:49:30,691] {logging_mixin.py:109} INFO - [2022-04-29 14:49:30,691] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:49:30,798] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:49:30,814] {logging_mixin.py:109} INFO - [2022-04-29 14:49:30,814] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:49:30,835] {logging_mixin.py:109} INFO - [2022-04-29 14:49:30,834] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:49:30,849] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.166 seconds
+[2022-04-29 14:50:00,933] {processor.py:163} INFO - Started process (PID=4316) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:50:00,934] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:50:00,935] {logging_mixin.py:109} INFO - [2022-04-29 14:50:00,935] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:50:01,122] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:50:01,136] {logging_mixin.py:109} INFO - [2022-04-29 14:50:01,136] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:50:01,162] {logging_mixin.py:109} INFO - [2022-04-29 14:50:01,162] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:50:01,216] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.287 seconds
+[2022-04-29 14:50:31,591] {processor.py:163} INFO - Started process (PID=4337) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:50:31,594] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:50:31,595] {logging_mixin.py:109} INFO - [2022-04-29 14:50:31,595] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:50:31,702] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:50:31,713] {logging_mixin.py:109} INFO - [2022-04-29 14:50:31,713] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:50:31,733] {logging_mixin.py:109} INFO - [2022-04-29 14:50:31,733] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:50:31,746] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.159 seconds
+[2022-04-29 14:51:02,220] {processor.py:163} INFO - Started process (PID=4373) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:51:02,223] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:51:02,225] {logging_mixin.py:109} INFO - [2022-04-29 14:51:02,224] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:51:02,549] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:51:02,594] {logging_mixin.py:109} INFO - [2022-04-29 14:51:02,594] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:51:02,781] {logging_mixin.py:109} INFO - [2022-04-29 14:51:02,781] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:51:02,876] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.659 seconds
+[2022-04-29 14:51:32,980] {processor.py:163} INFO - Started process (PID=4394) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:51:32,983] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:51:32,984] {logging_mixin.py:109} INFO - [2022-04-29 14:51:32,984] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:51:33,120] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:51:33,132] {logging_mixin.py:109} INFO - [2022-04-29 14:51:33,132] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:51:33,160] {logging_mixin.py:109} INFO - [2022-04-29 14:51:33,160] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:51:33,184] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.209 seconds
+[2022-04-29 14:52:03,817] {processor.py:163} INFO - Started process (PID=4424) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:52:03,855] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:52:03,856] {logging_mixin.py:109} INFO - [2022-04-29 14:52:03,856] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:52:04,117] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:52:04,129] {logging_mixin.py:109} INFO - [2022-04-29 14:52:04,129] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:52:04,152] {logging_mixin.py:109} INFO - [2022-04-29 14:52:04,151] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:52:04,169] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.360 seconds
+[2022-04-29 14:52:34,980] {processor.py:163} INFO - Started process (PID=4445) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:52:34,982] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:52:34,983] {logging_mixin.py:109} INFO - [2022-04-29 14:52:34,983] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:52:35,102] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:52:35,115] {logging_mixin.py:109} INFO - [2022-04-29 14:52:35,115] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:52:35,144] {logging_mixin.py:109} INFO - [2022-04-29 14:52:35,144] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:52:35,169] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.193 seconds
+[2022-04-29 14:53:05,673] {processor.py:163} INFO - Started process (PID=4484) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:53:05,675] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:53:05,676] {logging_mixin.py:109} INFO - [2022-04-29 14:53:05,676] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:53:05,813] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:53:05,825] {logging_mixin.py:109} INFO - [2022-04-29 14:53:05,825] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:53:05,847] {logging_mixin.py:109} INFO - [2022-04-29 14:53:05,847] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:53:05,870] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.201 seconds
+[2022-04-29 14:53:36,066] {processor.py:163} INFO - Started process (PID=4505) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:53:36,067] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:53:36,068] {logging_mixin.py:109} INFO - [2022-04-29 14:53:36,068] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:53:36,194] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:53:36,207] {logging_mixin.py:109} INFO - [2022-04-29 14:53:36,207] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:53:36,231] {logging_mixin.py:109} INFO - [2022-04-29 14:53:36,231] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:53:36,249] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.186 seconds
+[2022-04-29 14:54:06,997] {processor.py:163} INFO - Started process (PID=4541) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:54:06,999] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:54:07,000] {logging_mixin.py:109} INFO - [2022-04-29 14:54:07,000] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:54:07,190] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:54:07,206] {logging_mixin.py:109} INFO - [2022-04-29 14:54:07,206] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:54:07,229] {logging_mixin.py:109} INFO - [2022-04-29 14:54:07,229] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:54:07,246] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.252 seconds
+[2022-04-29 14:54:37,969] {processor.py:163} INFO - Started process (PID=4562) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:54:37,971] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:54:37,972] {logging_mixin.py:109} INFO - [2022-04-29 14:54:37,972] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:54:38,086] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:54:38,100] {logging_mixin.py:109} INFO - [2022-04-29 14:54:38,100] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:54:38,123] {logging_mixin.py:109} INFO - [2022-04-29 14:54:38,122] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:54:38,140] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.174 seconds
+[2022-04-29 14:55:08,825] {processor.py:163} INFO - Started process (PID=4598) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:55:08,827] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:55:08,828] {logging_mixin.py:109} INFO - [2022-04-29 14:55:08,828] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:55:08,968] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:55:08,981] {logging_mixin.py:109} INFO - [2022-04-29 14:55:08,981] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:55:09,003] {logging_mixin.py:109} INFO - [2022-04-29 14:55:09,002] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:55:09,020] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.198 seconds
+[2022-04-29 14:55:39,374] {processor.py:163} INFO - Started process (PID=4619) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:55:39,376] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:55:39,377] {logging_mixin.py:109} INFO - [2022-04-29 14:55:39,377] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:55:39,605] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:55:39,617] {logging_mixin.py:109} INFO - [2022-04-29 14:55:39,617] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:55:39,642] {logging_mixin.py:109} INFO - [2022-04-29 14:55:39,642] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:55:39,660] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.290 seconds
+[2022-04-29 14:56:09,894] {processor.py:163} INFO - Started process (PID=4657) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:56:09,897] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:56:09,899] {logging_mixin.py:109} INFO - [2022-04-29 14:56:09,899] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:56:10,505] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:56:10,531] {logging_mixin.py:109} INFO - [2022-04-29 14:56:10,521] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:56:10,587] {logging_mixin.py:109} INFO - [2022-04-29 14:56:10,587] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:56:10,609] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.719 seconds
+[2022-04-29 14:56:41,313] {processor.py:163} INFO - Started process (PID=4678) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:56:41,315] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:56:41,317] {logging_mixin.py:109} INFO - [2022-04-29 14:56:41,317] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:56:41,429] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:56:41,446] {logging_mixin.py:109} INFO - [2022-04-29 14:56:41,445] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:56:41,468] {logging_mixin.py:109} INFO - [2022-04-29 14:56:41,468] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:56:41,485] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.177 seconds
+[2022-04-29 14:57:12,173] {processor.py:163} INFO - Started process (PID=4715) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:57:12,175] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:57:12,176] {logging_mixin.py:109} INFO - [2022-04-29 14:57:12,176] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:57:12,395] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:57:12,407] {logging_mixin.py:109} INFO - [2022-04-29 14:57:12,407] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:57:12,442] {logging_mixin.py:109} INFO - [2022-04-29 14:57:12,442] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:57:12,475] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.307 seconds
+[2022-04-29 14:57:43,268] {processor.py:163} INFO - Started process (PID=4736) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:57:43,269] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:57:43,270] {logging_mixin.py:109} INFO - [2022-04-29 14:57:43,270] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:57:43,395] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:57:43,427] {logging_mixin.py:109} INFO - [2022-04-29 14:57:43,427] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:57:43,455] {logging_mixin.py:109} INFO - [2022-04-29 14:57:43,455] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:57:43,523] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.259 seconds
+[2022-04-29 14:58:14,482] {processor.py:163} INFO - Started process (PID=4772) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:58:14,484] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:58:14,485] {logging_mixin.py:109} INFO - [2022-04-29 14:58:14,485] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:58:14,603] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:58:14,616] {logging_mixin.py:109} INFO - [2022-04-29 14:58:14,616] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:58:14,646] {logging_mixin.py:109} INFO - [2022-04-29 14:58:14,645] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:58:14,670] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.194 seconds
+[2022-04-29 14:58:45,022] {processor.py:163} INFO - Started process (PID=4793) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:58:45,079] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:58:45,098] {logging_mixin.py:109} INFO - [2022-04-29 14:58:45,098] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:58:45,796] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:58:45,812] {logging_mixin.py:109} INFO - [2022-04-29 14:58:45,812] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:58:45,835] {logging_mixin.py:109} INFO - [2022-04-29 14:58:45,835] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:58:45,852] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.861 seconds
+[2022-04-29 14:59:15,931] {processor.py:163} INFO - Started process (PID=4830) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:59:15,933] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:59:15,934] {logging_mixin.py:109} INFO - [2022-04-29 14:59:15,934] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:59:16,041] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:59:16,053] {logging_mixin.py:109} INFO - [2022-04-29 14:59:16,052] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:59:16,074] {logging_mixin.py:109} INFO - [2022-04-29 14:59:16,074] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:59:16,090] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.162 seconds
+[2022-04-29 14:59:46,803] {processor.py:163} INFO - Started process (PID=4862) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:59:46,849] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 14:59:46,852] {logging_mixin.py:109} INFO - [2022-04-29 14:59:46,852] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:59:46,977] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 14:59:46,993] {logging_mixin.py:109} INFO - [2022-04-29 14:59:46,993] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 14:59:47,017] {logging_mixin.py:109} INFO - [2022-04-29 14:59:47,017] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 14:59:47,041] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.286 seconds
+[2022-04-29 15:00:17,568] {processor.py:163} INFO - Started process (PID=4888) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:00:17,570] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:00:17,571] {logging_mixin.py:109} INFO - [2022-04-29 15:00:17,571] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:00:17,691] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:00:17,702] {logging_mixin.py:109} INFO - [2022-04-29 15:00:17,702] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:00:17,729] {logging_mixin.py:109} INFO - [2022-04-29 15:00:17,729] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:00:17,746] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.182 seconds
+[2022-04-29 15:00:48,238] {processor.py:163} INFO - Started process (PID=4919) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:00:48,239] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:00:48,240] {logging_mixin.py:109} INFO - [2022-04-29 15:00:48,240] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:00:48,423] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:00:48,438] {logging_mixin.py:109} INFO - [2022-04-29 15:00:48,438] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:00:48,465] {logging_mixin.py:109} INFO - [2022-04-29 15:00:48,465] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:00:48,490] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.256 seconds
+[2022-04-29 15:01:19,728] {processor.py:163} INFO - Started process (PID=4945) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:01:19,730] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:01:19,731] {logging_mixin.py:109} INFO - [2022-04-29 15:01:19,731] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:01:19,970] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:01:19,983] {logging_mixin.py:109} INFO - [2022-04-29 15:01:19,983] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:01:20,004] {logging_mixin.py:109} INFO - [2022-04-29 15:01:20,003] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:01:20,020] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.302 seconds
+[2022-04-29 15:01:50,150] {processor.py:163} INFO - Started process (PID=4982) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:01:50,152] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:01:50,153] {logging_mixin.py:109} INFO - [2022-04-29 15:01:50,153] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:01:50,263] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:01:50,276] {logging_mixin.py:109} INFO - [2022-04-29 15:01:50,276] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:01:50,302] {logging_mixin.py:109} INFO - [2022-04-29 15:01:50,302] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:01:50,323] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.178 seconds
+[2022-04-29 15:02:20,595] {processor.py:163} INFO - Started process (PID=5003) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:02:20,597] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:02:20,598] {logging_mixin.py:109} INFO - [2022-04-29 15:02:20,598] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:02:20,726] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:02:20,738] {logging_mixin.py:109} INFO - [2022-04-29 15:02:20,738] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:02:20,758] {logging_mixin.py:109} INFO - [2022-04-29 15:02:20,758] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:02:20,776] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.186 seconds
+[2022-04-29 15:02:51,002] {processor.py:163} INFO - Started process (PID=5039) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:02:51,004] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:02:51,005] {logging_mixin.py:109} INFO - [2022-04-29 15:02:51,005] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:02:51,263] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:02:51,285] {logging_mixin.py:109} INFO - [2022-04-29 15:02:51,285] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:02:51,312] {logging_mixin.py:109} INFO - [2022-04-29 15:02:51,311] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:02:51,338] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.341 seconds
+[2022-04-29 15:03:21,446] {processor.py:163} INFO - Started process (PID=5060) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:03:21,449] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:03:21,450] {logging_mixin.py:109} INFO - [2022-04-29 15:03:21,450] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:03:21,631] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:03:21,697] {logging_mixin.py:109} INFO - [2022-04-29 15:03:21,697] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:03:21,716] {logging_mixin.py:109} INFO - [2022-04-29 15:03:21,716] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:03:21,732] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.289 seconds
+[2022-04-29 15:03:52,225] {processor.py:163} INFO - Started process (PID=5097) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:03:52,227] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:03:52,228] {logging_mixin.py:109} INFO - [2022-04-29 15:03:52,228] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:03:52,360] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:03:52,378] {logging_mixin.py:109} INFO - [2022-04-29 15:03:52,378] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:03:52,399] {logging_mixin.py:109} INFO - [2022-04-29 15:03:52,399] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:03:52,422] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.200 seconds
+[2022-04-29 15:04:22,654] {processor.py:163} INFO - Started process (PID=5118) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:04:22,655] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:04:22,656] {logging_mixin.py:109} INFO - [2022-04-29 15:04:22,656] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:04:22,796] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:04:22,828] {logging_mixin.py:109} INFO - [2022-04-29 15:04:22,827] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:04:22,844] {logging_mixin.py:109} INFO - [2022-04-29 15:04:22,844] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:04:22,860] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.210 seconds
+[2022-04-29 15:04:53,391] {processor.py:163} INFO - Started process (PID=5154) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:04:53,393] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:04:53,394] {logging_mixin.py:109} INFO - [2022-04-29 15:04:53,394] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:04:53,493] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:04:53,507] {logging_mixin.py:109} INFO - [2022-04-29 15:04:53,507] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:04:53,529] {logging_mixin.py:109} INFO - [2022-04-29 15:04:53,529] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:04:53,549] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.161 seconds
+[2022-04-29 15:05:24,208] {processor.py:163} INFO - Started process (PID=5175) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:05:24,209] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:05:24,211] {logging_mixin.py:109} INFO - [2022-04-29 15:05:24,210] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:05:24,324] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:05:24,335] {logging_mixin.py:109} INFO - [2022-04-29 15:05:24,335] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:05:24,355] {logging_mixin.py:109} INFO - [2022-04-29 15:05:24,354] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:05:24,371] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.167 seconds
+[2022-04-29 15:05:54,663] {processor.py:163} INFO - Started process (PID=5212) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:05:54,665] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:05:54,666] {logging_mixin.py:109} INFO - [2022-04-29 15:05:54,666] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:05:54,780] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:05:54,800] {logging_mixin.py:109} INFO - [2022-04-29 15:05:54,799] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:05:54,834] {logging_mixin.py:109} INFO - [2022-04-29 15:05:54,834] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:05:54,854] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.195 seconds
+[2022-04-29 15:06:25,462] {processor.py:163} INFO - Started process (PID=5233) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:06:25,464] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:06:25,465] {logging_mixin.py:109} INFO - [2022-04-29 15:06:25,465] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:06:25,606] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:06:25,616] {logging_mixin.py:109} INFO - [2022-04-29 15:06:25,616] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:06:25,635] {logging_mixin.py:109} INFO - [2022-04-29 15:06:25,635] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:06:25,652] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.196 seconds
+[2022-04-29 15:06:56,329] {processor.py:163} INFO - Started process (PID=5271) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:06:56,331] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:06:56,332] {logging_mixin.py:109} INFO - [2022-04-29 15:06:56,332] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:06:56,446] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:06:56,458] {logging_mixin.py:109} INFO - [2022-04-29 15:06:56,458] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:06:56,478] {logging_mixin.py:109} INFO - [2022-04-29 15:06:56,478] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:06:56,495] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.170 seconds
+[2022-04-29 15:07:27,522] {processor.py:163} INFO - Started process (PID=5292) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:07:27,524] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:07:27,525] {logging_mixin.py:109} INFO - [2022-04-29 15:07:27,525] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:07:27,626] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:07:27,637] {logging_mixin.py:109} INFO - [2022-04-29 15:07:27,637] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:07:27,656] {logging_mixin.py:109} INFO - [2022-04-29 15:07:27,656] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:07:27,675] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.157 seconds
+[2022-04-29 15:07:58,277] {processor.py:163} INFO - Started process (PID=5329) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:07:58,280] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:07:58,281] {logging_mixin.py:109} INFO - [2022-04-29 15:07:58,281] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:07:58,396] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:07:58,419] {logging_mixin.py:109} INFO - [2022-04-29 15:07:58,419] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:07:58,446] {logging_mixin.py:109} INFO - [2022-04-29 15:07:58,445] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:07:58,465] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.192 seconds
+[2022-04-29 15:08:29,107] {processor.py:163} INFO - Started process (PID=5350) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:08:29,109] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:08:29,110] {logging_mixin.py:109} INFO - [2022-04-29 15:08:29,110] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:08:29,227] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:08:29,238] {logging_mixin.py:109} INFO - [2022-04-29 15:08:29,238] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:08:29,257] {logging_mixin.py:109} INFO - [2022-04-29 15:08:29,257] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:08:29,275] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.178 seconds
+[2022-04-29 15:08:59,879] {processor.py:163} INFO - Started process (PID=5387) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:08:59,881] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:08:59,882] {logging_mixin.py:109} INFO - [2022-04-29 15:08:59,882] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:08:59,985] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:08:59,999] {logging_mixin.py:109} INFO - [2022-04-29 15:08:59,999] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:09:00,021] {logging_mixin.py:109} INFO - [2022-04-29 15:09:00,021] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:09:00,036] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.160 seconds
+[2022-04-29 15:09:30,604] {processor.py:163} INFO - Started process (PID=5408) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:09:30,607] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:09:30,608] {logging_mixin.py:109} INFO - [2022-04-29 15:09:30,608] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:09:30,709] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:09:30,720] {logging_mixin.py:109} INFO - [2022-04-29 15:09:30,720] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:09:30,739] {logging_mixin.py:109} INFO - [2022-04-29 15:09:30,739] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:09:30,756] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.155 seconds
+[2022-04-29 15:10:01,509] {processor.py:163} INFO - Started process (PID=5446) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:10:01,511] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:10:01,512] {logging_mixin.py:109} INFO - [2022-04-29 15:10:01,512] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:10:01,617] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:10:01,631] {logging_mixin.py:109} INFO - [2022-04-29 15:10:01,630] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:10:01,695] {logging_mixin.py:109} INFO - [2022-04-29 15:10:01,695] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:10:01,711] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.205 seconds
+[2022-04-29 15:10:32,360] {processor.py:163} INFO - Started process (PID=5467) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:10:32,362] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:10:32,363] {logging_mixin.py:109} INFO - [2022-04-29 15:10:32,363] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:10:32,506] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:10:32,516] {logging_mixin.py:109} INFO - [2022-04-29 15:10:32,516] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:10:32,534] {logging_mixin.py:109} INFO - [2022-04-29 15:10:32,534] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:10:32,551] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.195 seconds
+[2022-04-29 15:11:03,175] {processor.py:163} INFO - Started process (PID=5505) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:11:03,180] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:11:03,182] {logging_mixin.py:109} INFO - [2022-04-29 15:11:03,182] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:11:03,512] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:11:03,522] {logging_mixin.py:109} INFO - [2022-04-29 15:11:03,522] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:11:03,541] {logging_mixin.py:109} INFO - [2022-04-29 15:11:03,541] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:11:03,555] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.385 seconds
+[2022-04-29 15:11:34,186] {processor.py:163} INFO - Started process (PID=5526) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:11:34,188] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:11:34,189] {logging_mixin.py:109} INFO - [2022-04-29 15:11:34,189] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:11:34,338] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:11:34,349] {logging_mixin.py:109} INFO - [2022-04-29 15:11:34,348] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:11:34,375] {logging_mixin.py:109} INFO - [2022-04-29 15:11:34,375] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:11:34,390] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.208 seconds
+[2022-04-29 15:12:05,122] {processor.py:163} INFO - Started process (PID=5562) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:12:05,124] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:12:05,125] {logging_mixin.py:109} INFO - [2022-04-29 15:12:05,125] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:12:05,336] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:12:05,351] {logging_mixin.py:109} INFO - [2022-04-29 15:12:05,351] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:12:05,372] {logging_mixin.py:109} INFO - [2022-04-29 15:12:05,372] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:12:05,397] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.279 seconds
+[2022-04-29 15:12:36,374] {processor.py:163} INFO - Started process (PID=5583) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:12:36,376] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:12:36,377] {logging_mixin.py:109} INFO - [2022-04-29 15:12:36,377] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:12:36,488] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:12:36,498] {logging_mixin.py:109} INFO - [2022-04-29 15:12:36,498] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:12:36,518] {logging_mixin.py:109} INFO - [2022-04-29 15:12:36,518] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:12:36,535] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.164 seconds
+[2022-04-29 15:13:07,156] {processor.py:163} INFO - Started process (PID=5619) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:13:07,158] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:13:07,159] {logging_mixin.py:109} INFO - [2022-04-29 15:13:07,159] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:13:07,295] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:13:07,307] {logging_mixin.py:109} INFO - [2022-04-29 15:13:07,307] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:13:07,326] {logging_mixin.py:109} INFO - [2022-04-29 15:13:07,325] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:13:07,340] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.195 seconds
+[2022-04-29 15:13:38,012] {processor.py:163} INFO - Started process (PID=5640) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:13:38,014] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:13:38,015] {logging_mixin.py:109} INFO - [2022-04-29 15:13:38,015] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:13:38,116] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:13:38,127] {logging_mixin.py:109} INFO - [2022-04-29 15:13:38,127] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:13:38,146] {logging_mixin.py:109} INFO - [2022-04-29 15:13:38,146] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:13:38,161] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.153 seconds
+[2022-04-29 15:14:09,084] {processor.py:163} INFO - Started process (PID=5677) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:14:09,087] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:14:09,089] {logging_mixin.py:109} INFO - [2022-04-29 15:14:09,088] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:14:09,196] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:14:09,210] {logging_mixin.py:109} INFO - [2022-04-29 15:14:09,210] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:14:09,228] {logging_mixin.py:109} INFO - [2022-04-29 15:14:09,228] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:14:09,244] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.165 seconds
+[2022-04-29 15:14:39,964] {processor.py:163} INFO - Started process (PID=5698) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:14:39,967] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:14:39,968] {logging_mixin.py:109} INFO - [2022-04-29 15:14:39,968] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:14:40,091] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:14:40,101] {logging_mixin.py:109} INFO - [2022-04-29 15:14:40,101] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:14:40,119] {logging_mixin.py:109} INFO - [2022-04-29 15:14:40,119] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:14:40,137] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.176 seconds
+[2022-04-29 15:15:10,968] {processor.py:163} INFO - Started process (PID=5734) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:15:10,969] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:15:10,970] {logging_mixin.py:109} INFO - [2022-04-29 15:15:10,970] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:15:11,069] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:15:11,081] {logging_mixin.py:109} INFO - [2022-04-29 15:15:11,080] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:15:11,101] {logging_mixin.py:109} INFO - [2022-04-29 15:15:11,101] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:15:11,117] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.152 seconds
+[2022-04-29 15:15:42,119] {processor.py:163} INFO - Started process (PID=5755) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:15:42,122] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:15:42,123] {logging_mixin.py:109} INFO - [2022-04-29 15:15:42,123] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:15:42,225] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:15:42,238] {logging_mixin.py:109} INFO - [2022-04-29 15:15:42,238] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:15:42,259] {logging_mixin.py:109} INFO - [2022-04-29 15:15:42,259] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:15:42,276] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.160 seconds
+[2022-04-29 15:16:12,939] {processor.py:163} INFO - Started process (PID=5792) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:16:12,941] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:16:12,941] {logging_mixin.py:109} INFO - [2022-04-29 15:16:12,941] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:16:13,083] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:16:13,094] {logging_mixin.py:109} INFO - [2022-04-29 15:16:13,094] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:16:13,116] {logging_mixin.py:109} INFO - [2022-04-29 15:16:13,116] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:16:13,135] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.200 seconds
+[2022-04-29 15:16:43,779] {processor.py:163} INFO - Started process (PID=5813) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:16:43,780] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:16:43,781] {logging_mixin.py:109} INFO - [2022-04-29 15:16:43,781] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:16:43,965] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:16:43,975] {logging_mixin.py:109} INFO - [2022-04-29 15:16:43,975] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:16:43,994] {logging_mixin.py:109} INFO - [2022-04-29 15:16:43,994] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:16:44,011] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.235 seconds
+[2022-04-29 15:17:14,703] {processor.py:163} INFO - Started process (PID=5849) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:17:14,704] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:17:14,705] {logging_mixin.py:109} INFO - [2022-04-29 15:17:14,705] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:17:14,812] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:17:14,826] {logging_mixin.py:109} INFO - [2022-04-29 15:17:14,825] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:17:14,850] {logging_mixin.py:109} INFO - [2022-04-29 15:17:14,849] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:17:14,868] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.168 seconds
+[2022-04-29 15:17:45,661] {processor.py:163} INFO - Started process (PID=5880) to work on /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:17:45,663] {processor.py:642} INFO - Processing file /opt/airflow/dags/sp_rodaporfavor.py for tasks to queue
+[2022-04-29 15:17:45,663] {logging_mixin.py:109} INFO - [2022-04-29 15:17:45,663] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:17:45,781] {processor.py:654} INFO - DAG(s) dict_keys(['qqqq']) retrieved from /opt/airflow/dags/sp_rodaporfavor.py
+[2022-04-29 15:17:45,797] {logging_mixin.py:109} INFO - [2022-04-29 15:17:45,797] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-29 15:17:45,853] {logging_mixin.py:109} INFO - [2022-04-29 15:17:45,853] {dag.py:2937} INFO - Setting next_dagrun for qqqq to 2022-04-29T00:00:00+00:00
+[2022-04-29 15:17:45,870] {processor.py:171} INFO - Processing /opt/airflow/dags/sp_rodaporfavor.py took 0.212 seconds
