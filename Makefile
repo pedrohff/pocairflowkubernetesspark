@@ -17,8 +17,8 @@ kubernetes:
 	helm upgrade --install sparkop spark-operator/spark-operator -n spark-operator -f spark/op-config.yaml --create-namespace --version 1.1.20 --set webhook.enable=true
 	kubectl ns airflow
 	kubectl apply -f airflow/logs-pv.yaml
-	kubectl apply -f airflow/rbac.yaml
 	helm upgrade --install airflow apache-airflow/airflow -n airflow -f airflow/config.yaml --create-namespace --version 1.5.0
+	kubectl apply -f airflow/rbac.yaml
 
 
 
