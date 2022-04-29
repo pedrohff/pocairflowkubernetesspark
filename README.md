@@ -57,7 +57,7 @@ Na configuração do Minikube, foi recomendado utilizar o *driver* do Docker. Po
 
 ### Connections
 
-Foi um longo caminho para reconhecer que o SparkKubernetesOperator (operator no contexto do Airflow) utilizava de um Connection - conceito desconhecido para mim - que precisava ser configurado via interface do Airflow. Não estava muito bem documentado no operator como deveria ser configurado esse Connection, nem os erros ficavam claros - uma vez que os logs das tasks foi uma das últimas coisas que acabei descobrindo durante a pesquisa. Assim inicialmente configurei a Connection manualmente, verificando que necessitava apenas ter o nome `kubernetes_default`, e ter o checkbox marcado *in cluster config*.
+Foi um longo caminho para reconhecer que o SparkKubernetesOperator (operator no contexto do Airflow) utilizava de um Connection - conceito desconhecido para mim - que precisava ser configurado via interface do Airflow. Não estava muito bem documentado no operator como deveria ser configurado esse Connection, nem os erros ficavam claros - uma vez que os logs das tasks foi uma das últimas coisas que acabei descobrindo durante a pesquisa. Assim inicialmente configurei a Connection manualmente, verificando que necessitava apenas ter o nome `kubernetes_default`, e ter o checkbox marcado `in cluster config`.
 Naturalmente fui pesquisar como poderia automatizar a configuração dessa connection, e foi possível a partir de uma variável como constava na documentação (não tão clara) do [operator](https://airflow.apache.org/docs/apache-airflow-providers-cncf-kubernetes/stable/connections/kubernetes.html#howto-connection-kubernetes).
 
 ### Permissões
