@@ -15,7 +15,7 @@ spec:
   capacity:
     storage: 5Gi
   accessModes:
-    - ReadWriteMany
+    - ReadWriteMany # TODO verificar se está correto, talvez seja ReadWriteOnce
   persistentVolumeReclaimPolicy: Retain
   storageClassName: localsc
   hostPath:

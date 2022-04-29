@@ -1,7 +1,9 @@
+# Usando o executor default do K8S
 executor: "KubernetesExecutor"
+
 scheduler:
   replicas: 1
-  securityContext:
+  securityContext: # SecurityContext aplicado para que o(s) pods possam ter acesso ao disco montado para logs
     runAsUser: 50000
     fsGroup: 0
     runAsGroup: 0
@@ -13,7 +15,7 @@ scheduler:
     - name: dags
       mountPath: "/opt/airflow/dags"
   extraInitContainers:
-    - name: fix-volume-logs-permissions
+    - name: fix-volume-logs-permissions # TODO verificar se isso é realmente necessário
       image: busybox
       command: [ "sh", "-c", "chown -R 50000:0 /opt/airflow/logs/" ]
       securityContext:
@@ -23,7 +25,7 @@ scheduler:
           name: logs
 
 triggerer:
-  securityContext:
+  securityContext: # SecurityContext aplicado para que o(s) pods possam ter acesso ao disco montado para logs
     runAsUser: 50000
     fsGroup: 0
     runAsGroup: 0
@@ -45,7 +47,7 @@ triggerer:
           name: logs
 
 workers:
-  persistence:
+  persistence: #TODO verificar se isso ainda é necessário
     fixPermissions: true
   securityContext:
     runAsUser: 50000
@@ -71,19 +73,23 @@ workers:
 
 dags:
   persistence:
-    enabled: false
+    enabled: false # Persistência de dags só é necessário quando utilizado o GitSync
 
 config:
   core:
-    dags_folder: "/opt/airflow/dags"
+    dags_folder: "/opt/airflow/dags" # Configura diretório que as dags irão residir
+
+# As configurações abaixo de secret e extraSecrets são utilizadas para configurar o Airflow Connection com o Kubernetes
+# O KubernetesExecutor e o KubernetesOperator não requerem tal configuração, já o SparkKubernetesOperator sim, então abaixo
+# fazemos a configuração de forma automatizada, sem a necessidade de fazer via interface.
+# OBS: a Connection não é exibida na interface.
 secret:
   - envName: "AIRFLOW_CONN_KUBERNETES_DEFAULT"
     secretName: 'airflow-airflow-connections'
     secretKey: "AIRFLOW_CONN_KUBERNETES_DEFAULT"
-
 extraSecrets:
   'airflow-airflow-connections':
-    type: 'Opaque' # Base64 value on data is related to kubernetes://?extra__kubernetes__in_cluster=True&conn_id=kubernetes_default
+    type: 'Opaque' # O valor da chave abaixo é o seguinte, encriptado em Base64: kubernetes://?extra__kubernetes__in_cluster=True&conn_id=kubernetes_default
     data: |
       AIRFLOW_CONN_KUBERNETES_DEFAULT: 'a3ViZXJuZXRlczovLz9leHRyYV9fa3ViZXJuZXRlc19faW5fY2x1c3Rlcj1UcnVlJmNvbm5faWQ9a3ViZXJuZXRlc19kZWZhdWx0'
 
@@ -92,14 +98,15 @@ extraSecrets:
 # If true, it creates ClusterRole/ClusterRolebinding (with access to entire cluster)
 multiNamespaceMode: true
 
-env:
-  - name: "PYTHONASYNCIODEBUG"
-    value: "1"
 
+# SecurityContext aplicado para acesso ao mount de logs
 securityContext:
   runAsUser: 50000
   fsGroup: 0
   runAsGroup: 0
+
+# Configuração de logs
+# Depende que o arquivo "logs-pv.yaml" seja aplicado anteriormente
 logs:
   persistence:
     # Enable persistent volume for storing logs
@@ -109,6 +116,8 @@ logs:
     # If using a custom storageClass, pass name here
     storageClassName: localsc
 
+# TODO verificar se ainda é necessário
+# pelo que me lembro, o volume de logs não é criado nos pods do KubernetesExecutor
 podTemplate: |
   ---
   apiVersion: v1
