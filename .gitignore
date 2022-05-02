@@ -1,1 +1,3 @@
 mount/logs/*
+**/__pycache__
+**/logs
