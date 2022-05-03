@@ -14,15 +14,6 @@ scheduler:
   extraVolumeMounts:
     - name: dags
       mountPath: "/opt/airflow/dags"
-  extraInitContainers:
-    - name: fix-volume-logs-permissions # TODO verificar se isso é realmente necessário
-      image: busybox
-      command: [ "sh", "-c", "chown -R 50000:0 /opt/airflow/logs/" ]
-      securityContext:
-        runAsUser: 0
-      volumeMounts:
-        - mountPath: /opt/airflow/logs/
-          name: logs
 
 triggerer:
   securityContext: # SecurityContext aplicado para que o(s) pods possam ter acesso ao disco montado para logs
@@ -36,19 +27,8 @@ triggerer:
   extraVolumeMounts:
     - name: dags
       mountPath: "/opt/airflow/dags"
-  extraInitContainers:
-    - name: fix-volume-logs-permissions
-      image: busybox
-      command: [ "sh", "-c", "chown -R 50000:0 /opt/airflow/logs/" ]
-      securityContext:
-        runAsUser: 0
-      volumeMounts:
-        - mountPath: /opt/airflow/logs/
-          name: logs
 
 workers:
-  persistence: #TODO verificar se isso ainda é necessário
-    fixPermissions: true
   securityContext:
     runAsUser: 50000
     fsGroup: 0
@@ -61,15 +41,6 @@ workers:
   extraVolumeMounts:
     - name: dags
       mountPath: "/opt/airflow/dags"
-  extraInitContainers:
-    - name: fix-volume-logs-permissions
-      image: busybox
-      command: [ "sh", "-c", "chown -R 50000:0 /opt/airflow/logs/" ]
-      securityContext:
-        runAsUser: 0
-      volumeMounts:
-        - mountPath: /opt/airflow/logs/
-          name: logs
 
 dags:
   persistence:
@@ -116,8 +87,6 @@ logs:
     # If using a custom storageClass, pass name here
     storageClassName: localsc
 
-# TODO verificar se ainda é necessário
-# pelo que me lembro, o volume de logs não é criado nos pods do KubernetesExecutor
 podTemplate: |
   ---
   apiVersion: v1
