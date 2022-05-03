@@ -45,9 +45,8 @@ Antes de aplicar o Helm Chart do Airflow, criamos um StorageAccount e um Persist
 
 ## Funcionamento de uma DAG ligando os três componentes
 
-
-
-TODO descrever como habilitar uma task e como a sua execução ocorre nos namespaces.
+Com o diretório de DAGs mapeado corretamente, na tela inicial do Airflow é possível habilitar a DAG com nome *sparksample*.
+Uma vez habilitada, será iniciado um *worker* no formato de um Pod no namespace Airflow. Esse worker vai executar o comando `airflow task run ...` para executar a task inicial que vai solicitar o início de um job Spark; essa task vai iniciar um SparkApplication, que é possível de verificar observando o resultado do comando `kubectl get sparkapp -n default`. O SparkApp vai iniciar um Pod também no namespace default, e quando concluído, o SparkKubernetesSensor será finalizado em conjunto.
 
 ## Problemas enfrentados
 
